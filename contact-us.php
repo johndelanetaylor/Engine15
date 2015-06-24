@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
-<?php $pageTitle = 'Home'; ?>
+<?php $pageTitle = 'Contact Us'; ?>
     
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
@@ -15,12 +15,36 @@
     <img src="img/slider.jpg" style="margin:auto; max-width: 100%;" />
 </div> -->
     
-<!-- Slider -->
-<div class="home-slider">
-    <div class="slide"><img src="img/slide-1.jpg"></div>
-    <div class="slide"><img src="img/slide-2.jpg"></div>
-    <div class="slide"><img src="img/slide-3.jpg"></div>
-</div>
+<!-- Cover Image -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="one column offset"></div>
+            <div class="five columns">
+                <h3>Contact Us</h3>
+                <p>Give us a call, or write us an email, but most importantly come find us in Jacksonville Beach for a beer (or three) and some great food to wash it all down.</p>
+                <h5>Get In Touch</h5>
+                <p><strong>Phone </strong>555-555-5555</p>
+                <p><strong>Email </strong>info@engine15.com</p>
+            </div>
+            <div class="five columns">
+                <form>
+                </form>
+            </div>
+            <div class="one column offset"></div>
+        </div>
+    </div>
+</section>    
     
 <!-- Locations -->
 <section>
@@ -47,7 +71,7 @@
         </div>
     </div>
 </section>
-
+    
 <!-- Social -->
 <section>
     <div class="container">
@@ -61,7 +85,7 @@
         </div>
     </div>
 </section>
-
+    
 <!-- Find Our Beer -->
 <section>
     <div class="container">
@@ -75,7 +99,6 @@
         </div>
     </div>
 </section>
-
     
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
 
