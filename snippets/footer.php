@@ -1,42 +1,35 @@
-    <footer>
+<footer>
+    <section class="footer-nav">
         <div class="container">
             <div class="row">
-                <div class="five columns">
-                    <h4>Currently in Our Area</h4>
-                    <div id="weather"></div>
-                </div>
-                <div class="two columns">
-                    <h4>Case Studies</h4>
+                <div class="twelve columns">
                     <ul>
-                        <li><a href="/happy-cup">Happy Cup</a></li>
-                        <li><a href="/natural-sea">Natural Sea</a></li>
-                        <li><a href="/mediterranean-organic">Mediterranean Organic</a></li>
-                    </ul>
-                </div>
-                <div class="two columns">
-                    <h4>Our Studio</h4>
-                    <ul>
-                        <li><a href="/studio">About Us</a></li>
-                        <li><a href="/studio#services">Services</a></li>
-                        <li><a href="/studio#process">Process</a></li>
-                        <li><a href="/studio#team">Our Team</a></li>
-                    </ul>
-                </div>
-                <div class="two columns">
-                    <h4>Connect</h4>
-                    <ul>
-                        <li><a href="/studio#contact">Contact</a></li>
-                        <li><a href="https://www.facebook.com/Wearecharette" target="_blank">Facebook</a></li>
-                        <li><a href="https://twitter.com/wearecharette" target="_blank">Twitter</a></li>
-                        <li><a href="https://instagram.com/wearecharette" target="_blank">Instagram</a></li>
-                        <li><a href="https://dribbble.com/WeAreCharette" target="_blank">Dribbble</a></li>
+                        <li <?php if($pageTitle === 'Home'){ echo 'class="active"'; } ?> ><a href="index">Home</a></li>
+                        <li <?php if($pageTitle === 'Our Beers'){ echo 'class="active"'; } ?> ><a href="our-beers">Our Beers</a></li>
+                        <li <?php if($pageTitle === 'Jax Beach Brewpub'){ echo 'class="active"'; } ?> ><a href="jacksonville-beach-brewpub">Jacksonville Beach Brewpub</a></li>
+                        <li <?php if($pageTitle === 'Downtown Brewery & Biergarten'){ echo 'class="active"'; } ?> ><a href="downtown-brewery-and-biergarten">Downtown Brewery &amp; Biergarten</a></li>
+                        <li <?php if($pageTitle === 'The Shop'){ echo 'class="active"'; } ?> ><a href="the-shop">The Shop</a></li>
+                        <li <?php if($pageTitle === 'Contact Us'){ echo 'class="active"'; } ?> ><a href="contact-us">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
+    <section class="footer-end">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <p><a href="">info@engine15.com</a> | <a href="">555-555-5555</a></p>
+                </div>
+                <div class="four columns"><a href="#"><img /></a></div>
+                <div class="four columns">
+                    <p>Copyright Info | <a href="">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
 
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/simpleWeather.min.js"></script>
-    <script src="js/bxslider.js"></script>
-    <script src="js/scripts.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bxslider.js"></script>
+<script src="js/scripts.js"></script>

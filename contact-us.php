@@ -38,7 +38,11 @@
                 <p><strong>Email </strong>info@engine15.com</p>
             </div>
             <div class="five columns">
-                <form>
+                <form action="contact.php" method="POST">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="text" name="email" placeholder="Your Email">
+                    <textarea class="u-full-width" placeholder="Tell us about your project. This will help us determine how we can work together." required></textarea>
+                    <input class="button-primary large" type="submit" value="Send">
                 </form>
             </div>
             <div class="one column offset"></div>

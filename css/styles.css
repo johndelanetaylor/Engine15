@@ -1,0 +1,190 @@
+/* ~~~~~ Main ~~~~~ */
+body {
+    color: #111111;
+    font-size: 18px;
+    font-family: "Neuton", Georgia, serif;
+}
+h1 { font-size: 42px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
+h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #EFC430;
+}
+h1 {
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: "Neuton", Georgia, serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+}
+
+/* ~~~~~ Navigation ~~~~~ */
+.logo {
+    display: block;
+    max-width: 175px;
+    max-height: 95px;
+    padding: 20px 0 0 0;
+}
+nav {
+    background: #000000;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+}
+nav ul {
+    text-align: right;
+}
+nav li {
+    display: inline-block;
+    padding: 40px 0 20px 15px;
+}
+nav a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: .5px;
+}
+nav li, nav li a, nav li.hovered, nav li.hovered a {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* ~~~~~ Locations ~~~~~ */
+
+.locations  {
+    padding: 100px 0;
+    text-align: center;
+}
+.jax-beach h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 51px;
+    color: #EFC430;
+}
+.jax-beach h2 {
+    font-family: 'Neuton', serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+    color: #000000;
+    padding-bottom: 25px;
+}
+.biergarten h1 {
+    font-family: 'Neuton', serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 27px;
+    color: #000000;
+}
+.biergarten h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 52px;
+    color: #EFC430;
+    padding-bottom: 25px;
+}
+
+/* ~~~~~ Social ~~~~~ */
+
+.social {
+    padding: 50px 0;
+    text-align: center;
+    background: gray;
+}
+.social-heading h3,
+h4 {
+    display: inline;
+}
+.social-heading h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+.social-heading h4 {
+    font-family: 'Oleo Script', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #EFC430;
+}
+.social-heading a {
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+}
+
+/* ~~~~~ Beer Finder ~~~~~ */
+
+.beer {
+    padding: 100px 0;
+    text-align: center;
+    background: #000000;
+}
+.beer-finder h2, h4 {
+    display: inline;
+}
+.beer-finder h2 {
+    font-family: 'Neuton', serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 49px;
+    color: #FFFFFF;
+}
+.beer-finder h4 {
+    font-family: 'Oleo Script', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    color: #EFC430;
+    text-transform: lowercase;
+}
+.beer-finder h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  color: #EFC430;
+}
+
+/* ~~~~~ Footer ~~~~~ */
+
+footer p, ul, li, a {
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    display: inline;
+    padding: 0 10px;
+    list-style: none;
+}
+.footer-nav {
+    background: brown;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: .5px;
+}
+.footer-end {
+    background: black;
+    padding: 15px 0;
+    text-align: center;
+}
