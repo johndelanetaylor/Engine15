@@ -1,4 +1,4 @@
-<section class="social">
+<section class="social sm-pad">
     <div class="container">
         <div class="row">
             <div class="twelve columns social-heading">

@@ -1,4 +1,4 @@
-<section class="beer">
+<section class="beer lg-pad">
     <div class="container">
         <div class="row">
             <div class="twelve columns beer-finder">

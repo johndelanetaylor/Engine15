@@ -1,5 +1,5 @@
 <!-- Locations -->
-<section class="locations">
+<section class="locations lg-pad">
     <div class="container">
         <div class="row">
             <div class="six columns jax-beach">
@@ -9,7 +9,7 @@
                     Jacksonville Beach, FL 32250<br />
                     555-555-5555<br />
                     Hours of Operation</p>
-                <a herf"#">Map It</a>
+                <button class="button-bg">MAP IT</button>
             </div>
             <div class="six columns biergarten">
                 <h1>Downtown Brewery</h1>
@@ -18,7 +18,7 @@
                     Our biergarten is coming soon!<br />
                     555-555-5555<br />
                     Hours of Operation</p>
-                <a herf"#">Map It</a>
+                <button class="button-bg">MAP IT</button>
             </div>
         </div>
     </div>
