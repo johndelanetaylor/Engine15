@@ -70,10 +70,12 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 .yellow {
-    background: #EFC430;
+    background: url(/img/concrete-pattern-3-3.png) 0 0 repeat;
+    color: #000000;
 }
 .black {
     background: #000000;
+    color: #EFC430;
 }
 
 /* ~~~~~ Navigation ~~~~~ */
@@ -112,7 +114,7 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
 
 .locations  {
     text-align: center;
-    background: #FFFFFF;
+    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .subnav {
     width: 100%;
@@ -124,7 +126,7 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     padding: 10px 5px 10px 5px;
 }
 .info {
-    background: #FFFFFF;
+    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .details p {
     display: inline;
@@ -161,10 +163,10 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     padding-bottom: 25px;
 }
 .beer-menu {
-    background: #EFC430;
+    background: url(/img/concrete-pattern-3-3.png) 0 0 repeat;
 }
 .event-menu {
-    background: #FFFFFF;
+    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .food-menu {
     background: #000000;
@@ -227,6 +229,12 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     padding: 10px 10px 0 10px;
 }
 
+/* ~~~~~ Our Beers ~~~~~ */
+
+.our-beers {
+
+}
+
 /* ~~~~~ Beer Finder ~~~~~ */
 
 .beer {
@@ -285,7 +293,7 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
 
 /* ~~~~~ The Shop ~~~~~ */
 .certificate {
-    background: #FFFFFF;
+    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .certificate h1 {
     font-family: "Neuton", Georgia, serif;

@@ -26,9 +26,9 @@
         <div class="row">
             <div class="twelve columns subnav-links">
                 <ul>
-                    <li>Year-round</li> |
-                    <li>Seasonal</li> |
-                    <li>Limited</li>
+                    <li><a href="#">Year-round</a></li> |
+                    <li><a href="#">Seasonal</a></li> |
+                    <li><a href="#">Limited</a></li>
                 </ul>
             </div>
         </div>
@@ -36,7 +36,7 @@
 </section>
     
 <!-- Our Beers -->
-<section>
+<section class="sm-pad">
     <div class="container">
         <div class="row">
             <div class="three columns">

@@ -26,10 +26,10 @@
         <div class="row">
             <div class="twelve columns subnav-links">
                 <ul>
-                    <li>About</li> |
-                    <li>Whats On Tap</li> |
-                    <li>Events</li> |
-                    <li>Our Menu</li>
+                    <li><a href="#">About</a></li> |
+                    <li><a href="#">Whats On Tap</a></li> |
+                    <li><a href="#">Events</a></li> |
+                    <li><a href="#">Our Menu</a></li>
                 </ul>
             </div>
         </div>
