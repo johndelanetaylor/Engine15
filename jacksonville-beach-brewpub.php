@@ -21,7 +21,7 @@
 </section>
 
 <!-- Location Subnav -->
-<section class="subnav">
+<section class="subnav yellow">
     <div class="container">
         <div class="row">
             <div class="twelve columns subnav-links">
@@ -37,7 +37,7 @@
 </section>
     
 <!-- Jacksonville Beach Brewery -->
-<section class="lg-pad">
+<section class="info lg-pad">
     <div class="container">
         <div class="row">
             <div class="five columns jax-beach">
@@ -48,8 +48,8 @@
             <div class="seven columns">
                 <p>Engine 15 Brewing Co. operates 3 brewhouses in two locations. At our Jacksonville Beach Brewpub, we brew on our steam fired 5 bbl Brewhaus. It was built in the 1990’s in Canada by Price-Shoenstrom. The brewhouse came to us from a brewery in Ohio. Soon after receiving it, we quickly modified it to fit our application and style of brewing, and put it into production. We regularly double batch in our 10 bbl fermenters. We dedicate our efforts at the brewpub to one-offs and brewpub only offerings.</p>
                 <div class="details">
-                    <p><strong>Phone</strong> 555-555-5555</p>
-                    <p><strong>Hours</strong> Hours Of Operation</p>
+                    <p><strong>Phone </strong>555-555-5555</p>
+                    <p><strong>Hours </strong>Hours Of Operation</p>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
 </section>
     
 <!-- Upcoming Events -->
-<section class="lg-pad center">
+<section class="event-menu lg-pad center">
     <div class="container">
         <div class="row">
             <div class="twelve columns">
@@ -79,7 +79,7 @@
 </section>
     
 <!-- Our Menu - Jax Beach Brewpub -->
-<section class="food-menu lg-pad center">
+<section class="food-menu lg-pad">
     <div class="container">
         <div class="row">
             <div class="twelve columns center">
@@ -264,9 +264,6 @@
         </div>
     </div>
 </section>
-    
-<!-- Social -->
-<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
 
 <!-- Footer -->    
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>

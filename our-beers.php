@@ -16,23 +16,18 @@
 </div> -->
 
 <!-- Cover Image -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-            </div>
-        </div>
-    </div>
+<section class="cover">
+    <img src="http://placehold.it/1440x300">
 </section>
     
 <!-- Beer Subnav -->
-<section>
+<section class="subnav black">
     <div class="container">
         <div class="row">
-            <div class="twelve columns">
+            <div class="twelve columns subnav-links">
                 <ul>
-                    <li>Year-round</li>
-                    <li>Seasonal</li>
+                    <li>Year-round</li> |
+                    <li>Seasonal</li> |
                     <li>Limited</li>
                 </ul>
             </div>
@@ -44,7 +39,37 @@
 <section>
     <div class="container">
         <div class="row">
-            
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
+            <div class="three columns">
+                <img src="http://placehold.it/300x300" />
+            </div>
         </div>
     </div>
 </section>

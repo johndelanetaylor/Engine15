@@ -22,7 +22,10 @@
     <div class="slide"><img src="img/slide-3.jpg"></div>
 </div>-->
     
-<img src="http://placehold.it/1440x560">
+<!-- Slider Placeholder -->
+<section class="cover">
+    <img src="http://placehold.it/1440x560">
+</section>
     
 <!-- Locations -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/locations.php"); ?>
