@@ -29,8 +29,8 @@
                 <h3>Contact Us</h3>
                 <p>Give us a call, or write us an email, but most importantly come find us in Jacksonville Beach for a beer (or three) and some great food to wash it all down.</p>
                 <h5>Get In Touch</h5>
-                <p><strong>Phone </strong>555-555-5555<br />
-                    <strong>Email </strong>info@engine15.com</p>
+                <p><strong>Phone </strong>904-249-BEER<br />
+                    <strong>Email </strong><a href="mailto:info@engine15.com">info@engine15.com</a></p>
             </div>
             <div class="four columns">
                 <form action="contact.php" method="POST">

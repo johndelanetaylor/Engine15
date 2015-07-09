@@ -15,15 +15,15 @@
             </div>
         </div>
     </section>
-    <section class="footer-end">
+    <section class="footer-end transparent">
         <div class="container">
             <div class="row">
                 <div class="four columns">
-                    <p><a href="">info@engine15.com</a> | <a href="">555-555-5555</a></p>
+                    <p><a href="mailto:info@engine15.com">info@engine15.com</a> | 904-249-BEER</p>
                 </div>
-                <div class="four columns"><a href="#"><img /></a></div>
+                <div class="four columns"><a href="index.php"><img src="img/logo.svg" /></a></div>
                 <div class="four columns">
-                    <p>Copyright Info | <a href="">Privacy Policy</a></p>
+                    <p>© 2015 Engine 15 Brewing Company</p>
                 </div>
             </div>
         </div>

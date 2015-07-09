@@ -77,6 +77,11 @@ h1, h2, h3, h4 {
     background: #000000;
     color: #EFC430;
 }
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
 
 /* ~~~~~ Navigation ~~~~~ */
 
@@ -171,6 +176,23 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
 .food-menu {
     background: #000000;
     color: #FFFFFF;
+    z-index: 0;
+}
+.menu {
+    background: #000000;
+    color: #FFFFFF;
+    position: relative;
+}
+.menu:after {
+    content: '';
+    background: url('/img/our-menu-top-bg.png') center center no-repeat;
+    height: 400px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
 }
 .food-menu h1 {
     padding-bottom: 20px;
@@ -339,4 +361,10 @@ footer ul li {
     background: black;
     padding: 15px 0;
     text-align: center;
+}
+.footer-end img {
+    width: 120px;
+}
+.footer-end p {
+    padding-top: 15px;
 }
