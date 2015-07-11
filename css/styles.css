@@ -3,7 +3,7 @@ body {
     color: #111111;
     font-size: 18px;
     font-family: "Neuton", Georgia, serif;
-    background: url(/img/wood-bg.jpg) 0 0 repeat-y;
+    background: url(/img/wood-bg.jpg) 0 0 repeat;
     height: auto;
     width: 100%;
 }
@@ -114,6 +114,12 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+nav li:hover {
+background: #EFC430;
+    height: 100%;
+    width: auto;
+    color: #000000;
+}
 
 /* ~~~~~ Locations ~~~~~ */
 
@@ -179,7 +185,7 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     z-index: 0;
 }
 .menu {
-    background: #000000;
+    background: #000000,
     color: #FFFFFF;
     position: relative;
 }

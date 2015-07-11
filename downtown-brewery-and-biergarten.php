@@ -17,7 +17,7 @@
     
 <!-- Cover Image -->
 <section class="cover">
-    <img src="http://placehold.it/1440x300">
+    <img src="img/cover-downtown-brewery-and-biergarten.jpg">
 </section>
 
 <!-- Location Subnav -->
@@ -79,7 +79,7 @@
 </section>
     
 <!-- Our Menu - Downtown Brewery & Biergarten -->
-<section class="food-menu menu lg-pad">
+<section class="food-menu lg-pad">
     <div class="container">
         <div class="row">
             <div class="twelve columns center">

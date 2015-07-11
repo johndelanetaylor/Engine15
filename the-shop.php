@@ -12,7 +12,7 @@
     
 <!-- Cover Image -->
 <section class="cover">
-    <img src="http://placehold.it/1440x300">
+    <img src="img/cover-the-shop.jpg">
 </section>
     
 <section class="lg-pad certificate">

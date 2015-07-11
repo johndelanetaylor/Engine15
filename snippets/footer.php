@@ -23,7 +23,7 @@
                 </div>
                 <div class="four columns"><a href="index.php"><img src="img/logo.svg" /></a></div>
                 <div class="four columns">
-                    <p>© 2015 Engine 15 Brewing Company</p>
+                    <p>© 2015 Engine15 Brewing Company</p>
                 </div>
             </div>
         </div>
