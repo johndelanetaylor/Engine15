@@ -21,6 +21,9 @@ a {
 a:hover {
     color: #EFC430;
 }
+.yellow a:hover {
+    color: #000000;
+}
 strong {
     font-family: "Oswald", Helvetica, sans-serif;
     font-weight: 600;
