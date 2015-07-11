@@ -29,7 +29,3 @@
         </div>
     </section>
 </footer>
-
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/bxslider.js"></script>
-<script src="js/scripts.js"></script>
