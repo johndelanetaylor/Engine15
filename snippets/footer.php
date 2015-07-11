@@ -15,7 +15,7 @@
             </div>
         </div>
     </section>
-    <section class="footer-end transparent">
+    <section class="footer-end">
         <div class="container">
             <div class="row">
                 <div class="four columns">

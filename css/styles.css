@@ -143,7 +143,22 @@ nav li, nav li a {
 
 .locations  {
     text-align: center;
+    position: relative;
     background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
+}
+.locations:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/img/bg/location-tanks-bg.jpg) center center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+.locations .container {
+    z-index: 1;
 }
 .subnav {
     width: 100%;
