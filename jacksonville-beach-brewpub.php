@@ -43,7 +43,7 @@
             <div class="five columns jax-beach center">
                 <h1>Jacksonville</h1>
                 <h2>Beach Brewpub</h2>
-                <button class="button-bg"><a href="https://www.google.com/maps/place/Engine+15+Brewing+Co./@30.2875967,-81.4086461,17z/data=!3m1!4b1!4m2!3m1!1s0x88e4499f19651fdf:0xc3fe1b20bd801a52" target="_blank">MAP IT</a></button>
+                <button><a href="https://www.google.com/maps/place/Engine+15+Brewing+Co./@30.2875967,-81.4086461,17z/data=!3m1!4b1!4m2!3m1!1s0x88e4499f19651fdf:0xc3fe1b20bd801a52" target="_blank">MAP IT</a></button>
             </div>
             <div class="seven columns">
                 <p>Engine 15 Brewing Co. operates 3 brewhouses in two locations. At our Jacksonville Beach Brewpub, we brew on our steam fired 5 bbl Brewhaus. It was built in the 1990’s in Canada by Price-Shoenstrom. The brewhouse came to us from a brewery in Ohio. Soon after receiving it, we quickly modified it to fit our application and style of brewing, and put it into production. We regularly double batch in our 10 bbl fermenters. We dedicate our efforts at the brewpub to one-offs and brewpub only offerings.</p>
@@ -85,7 +85,7 @@
         <div class="row">
             <div class="twelve columns center">
                 <h1>Our Menu</h1>
-                <button class="button-bg">Download Our Menu</button>
+                <button>Download Our Menu</button>
             </div>
         </div>
         <div class="row">

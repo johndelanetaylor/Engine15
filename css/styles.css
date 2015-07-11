@@ -27,16 +27,20 @@ strong {
     text-transform: uppercase;
     font-size: 14px;
 }
-.button-bg {
+button {
     background: url(/img/button-bg.jpg) 0 0 no-repeat;
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Source Sans Pro", "Oswald", Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     width: 215px;
     height: 40px;
     text-shadow: 1px 1px 0 rgba(204, 157, 43, 1);
+}
+button:hover, button:hover a {
+    color: #000000;
+    text-shadow: none;
 }
 h1 {
     font-family: "Oswald", Helvetica, sans-serif;

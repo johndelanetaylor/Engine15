@@ -43,7 +43,7 @@
             <div class="five columns biergarten center">
                 <h1>Downtown Brewery</h1>
                 <h2>&amp; Biergarten</h2>
-                <button class="button-bg">MAP IT</button>
+                <button>MAP IT</button>
             </div>
             <div class="seven columns">
                 <p>Our downtown Jacksonville production brewery opened in 2014. We brew on our custom built 20 barrel brewhouse into 60 barrel tanks. This location is dedicated to producing our core brands and some of our seasonal and limited offerings. We also house all of our packaging for distribution in bottles and kegs. Soon after commissioning this location we moved our original 1 barrel steam fired brewhouse downtown from the Jacksonville Beach Brewpub. We feel lucky to have been able to keep this little system that launched us, and we now use it to brew pilot batches of experimental beers, talk about fun!</p>
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="twelve columns center">
                 <h1>Our Menu</h1>
-                <button class="button-bg"><a href="#">Download Our Menu</a></button>
+                <button><a href="#">Download Our Menu</a></button>
             </div>
         </div>
         <div class="row">
