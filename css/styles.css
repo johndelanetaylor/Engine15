@@ -92,6 +92,9 @@ h1, h2, h3, h4 {
 	filter: alpha(opacity=80);
 	opacity: 0.8;
 }
+.btm {
+    padding-bottom: 0;
+}
 
 /* ~~~~~ Navigation ~~~~~ */
 

@@ -212,6 +212,9 @@
         </div>
     </div>
 </section>
+    
+<!-- Social -->    
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
 
 <!-- Footer -->    
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
