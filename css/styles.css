@@ -216,7 +216,7 @@ nav li, nav li a {
     background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .food-menu {
-    background: url('/img/bg/our-menu-top-bg.png') top center no-repeat, url('/img/bg/our-menu-bottom-bg.png') bottom center no-repeat, #000000;
+    background: url('/img/bg/our-menu-top-bg.png') top center repeat-x, url('/img/bg/our-menu-bottom-bg.png') bottom center repeat-x, #000000;
     color: #FFFFFF;
     z-index: 0;
 }
@@ -295,7 +295,7 @@ nav li, nav li a {
 
 .find-beer {
     text-align: center;
-    background: url('/img/bg/our-menu-bottom-bg.png') bottom center no-repeat, #000000;
+    background: url('/img/bg/our-menu-bottom-bg.png') bottom center repeat-x, #000000;
 }
 .beer-finder h2, h4 {
     display: inline;
@@ -325,7 +325,7 @@ nav li, nav li a {
 /* ~~~~~ Contact ~~~~~ */
 
 .contact {
-    background: url('/img/bg/our-menu-top-bg.png') top center no-repeat, #000000;
+    background: url('/img/bg/our-menu-top-bg.png') top center repeat-x, #000000;
     color: #FFFFFF;
 }
 .contact h3 {
