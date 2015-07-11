@@ -28,7 +28,7 @@ strong {
     font-size: 14px;
 }
 button {
-    background: url(/img/button-bg.jpg) 0 0 no-repeat;
+    background: url(/img/sm-btn-bg.jpg) 0 0 no-repeat;
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Source Sans Pro", "Oswald", Helvetica, sans-serif;
@@ -126,7 +126,7 @@ nav li.hovered a, nav li.active a {
     color: #000000;
 }
 nav li.hovered, nav li.active {
-    background: url(/img/button-bg.jpg), #EFC430;
+    background: url(/img/sm-btn-bg.jpg), #EFC430;
 }
 nav li, nav li a {
     -webkit-transition: all 0.3s ease;

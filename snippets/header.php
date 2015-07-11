@@ -21,12 +21,13 @@
 <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-touch-icon-152x152.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon-180x180.png">
 <link rel="icon" type="image/png" href="/img/icons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/img/icons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/img/icons/favicon-194x194.png" sizes="194x194">
 <link rel="icon" type="image/png" href="/img/icons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/img/icons/android-chrome-192x192.png" sizes="192x192">
 <link rel="icon" type="image/png" href="/img/icons/favicon-16x16.png" sizes="16x16">
 <link rel="manifest" href="/img/icons/manifest.json">
 <link rel="shortcut icon" href="/img/icons/favicon.ico">
-<meta name="msapplication-TileColor" content="#E8282E">
+<meta name="msapplication-TileColor" content="#FFFFFF">
 <meta name="msapplication-TileImage" content="/img/icons/mstile-144x144.png">
 <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
 <meta name="theme-color" content="#FFFFFF">
