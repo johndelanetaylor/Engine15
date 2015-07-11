@@ -189,25 +189,9 @@ nav li, nav li a {
     background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .food-menu {
-    background: #000000;
+    background: url('/img/our-menu-top-bg.png') top center no-repeat, url('/img/our-menu-bottom-bg.png') bottom center no-repeat, #000000;
     color: #FFFFFF;
     z-index: 0;
-}
-.menu {
-    background: #000000,
-    color: #FFFFFF;
-    position: relative;
-}
-.menu:after {
-    content: '';
-    background: url('/img/our-menu-top-bg.png') center center no-repeat;
-    height: 400px;
-    width: 100%;
-    max-width: 100%;
-    display: block;
-    z-index: 1;
-    position: absolute;
-    top: 0;
 }
 .food-menu h1 {
     padding-bottom: 20px;
@@ -229,6 +213,10 @@ nav li, nav li a {
     display: inline;
     letter-spacing: .5px;
     font-weight: 200;
+}
+.food-menu ul.list li {
+    display: inline-block;
+    width: 49%;
 }
 .food-menu .right {
     float: right;
