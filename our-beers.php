@@ -34,39 +34,26 @@
 </section>
     
 <!-- Our Beers -->
-<section class="sm-pad">
+<section class="beers sm-pad">
     <div class="container">
         <div class="row">
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
+            <div class="beer">
+                <img src="img/beer/1.jpg" />
             </div>
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
+            <div class="beer">
+                <img src="img/beer/2.jpg" />
             </div>
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
+            <div class="beer">
+                <img src="img/beer/3.jpg" />
             </div>
-        </div>
-        <div class="row">
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
+            <div class="beer">
+                <img src="img/beer/4.jpg" />
             </div>
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
+            <div class="beer">
+                <img src="img/beer/5.jpg" />
             </div>
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
-            </div>
-        </div>
-        <div class="row">
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
-            </div>
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
-            </div>
-            <div class="three columns">
-                <img src="http://placehold.it/300x300" />
+            <div class="beer">
+                <img src="img/beer/6.jpg" />
             </div>
         </div>
     </div>

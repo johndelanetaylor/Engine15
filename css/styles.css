@@ -3,7 +3,7 @@ body {
     color: #111111;
     font-size: 18px;
     font-family: "Neuton", Georgia, serif;
-    background: url(/img/bg/wood-bg.jpg) 0 0 repeat;
+    background: url(/img/bg/wood-bg.jpg) center center;
     height: auto;
     width: 100%;
 }
@@ -265,15 +265,19 @@ nav li, nav li a {
 
 /* ~~~~~ Our Beers ~~~~~ */
 
-.our-beers {
-
+.beers {
+    text-align: center;
+}
+.beers .beer {
+    display: inline-block;
+    margin: 8px;
 }
 
 /* ~~~~~ Beer Finder ~~~~~ */
 
-.beer {
+.find-beer {
     text-align: center;
-    background: #000000;
+    background: url('/img/bg/our-menu-bottom-bg.png') bottom center no-repeat, #000000;
 }
 .beer-finder h2, h4 {
     display: inline;
@@ -373,9 +377,17 @@ footer ul li {
     color: #EFC430;
 }
 .footer-end {
-    background: black;
+    background: rgba(0,0,0,.7);
     padding: 15px 0;
     text-align: center;
+}
+.footer-end .container {
+    opacity: .8;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+.footer-end:hover .container {
+    opacity: 1;
 }
 .footer-end img {
     width: 120px;
