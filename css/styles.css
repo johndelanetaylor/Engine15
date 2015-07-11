@@ -3,7 +3,7 @@ body {
     color: #111111;
     font-size: 18px;
     font-family: "Neuton", Georgia, serif;
-    background: url(/img/bg/wood-bg.jpg) center center;
+    background: url(/img/bg/wood-bg.jpg) top center;
     height: auto;
     width: 100%;
 }
@@ -30,8 +30,8 @@ strong {
     text-transform: uppercase;
     font-size: 14px;
 }
-button {
-    background: url(/img/bg/sm-btn-bg.jpg) 0 0 no-repeat;
+button, input[type="submit"] {
+    background: url(/img/bg/sm-btn-bg.jpg);
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Source Sans Pro", "Oswald", Helvetica, sans-serif;
@@ -41,7 +41,7 @@ button {
     height: 40px;
     text-shadow: 1px 1px 0 rgba(204, 157, 43, 1);
 }
-button:hover, button:hover a {
+button:hover, button:hover a, input[type="submit"]:hover {
     color: #000000;
     text-shadow: none;
 }
@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
     background-position: center;
 }
 #home .cover {
-    height: auto;
+    height: 560px;
 }
 .lg-pad {
     padding: 100px 0;
@@ -325,17 +325,17 @@ nav li, nav li a {
 /* ~~~~~ Contact ~~~~~ */
 
 .contact {
-    background: #000000;
+    background: url('/img/bg/our-menu-top-bg.png') top center no-repeat, #000000;
     color: #FFFFFF;
 }
 .contact h3 {
     font-family: "Oswald", Helvetica, sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 28px;
-    letter-spacing: .25px;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: .5px;
     color: #EFC430;
-    padding: 20px 0;
+    padding: 0 0 20px;
 }
 .contact h5 {
     font-family: "Oswald", Helvetica, sans-serif;
@@ -346,10 +346,31 @@ nav li, nav li a {
     color: #FFFFFF;
     padding: 0;  
 }
+.contact input[type="submit"] {
+    width: 100%;
+    padding: 0;
+    -webkit-appearance: none;
+}
 
 /* ~~~~~ The Shop ~~~~~ */
-.certificate {
+
+.certificate  {
+    position: relative;
     background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
+}
+.certificate:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/img/bg/location-tanks-bg.jpg) center center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+.certificate .container {
+    z-index: 1;
 }
 .certificate h1 {
     font-family: "Neuton", Georgia, serif;

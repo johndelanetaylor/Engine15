@@ -33,10 +33,10 @@
             </div>
             <div class="four columns">
                 <form action="contact.php" method="POST">
-                    <input type="text" name="name" placeholder="Your Name">
-                    <input type="text" name="email" placeholder="Your Email">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
                     <textarea class="u-full-width" placeholder="Your Message" required></textarea>
-                    <input class="button-primary large" type="submit" value="Send">
+                    <input class="u-full-width" type="submit" value="Submit">
                 </form>
             </div>
             <div class="one column offset"></div>
@@ -46,12 +46,12 @@
     
 <!-- Locations -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/locations.php"); ?>
-    
-<!-- Social -->
-<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
 
 <!-- Find Our Beer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/beer-finder.php"); ?>
+    
+<!-- Social -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
 
 <!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
