@@ -55,11 +55,14 @@ h2 {
 h1, h2, h3, h4 {
     margin-bottom: 0;
 }
-.cover img {
-    clear: both;
-    padding: 0;
-    margin: 0;
-    display: block;
+.cover {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#home .cover {
+    height: auto;
 }
 .lg-pad {
     padding: 100px 0;

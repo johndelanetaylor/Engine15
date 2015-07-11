@@ -6,7 +6,7 @@
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
 
-<body>
+<body id="home">
 	
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
     
