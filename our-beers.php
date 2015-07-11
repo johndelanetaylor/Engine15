@@ -16,7 +16,7 @@
 </div> -->
 
 <!-- Cover Image -->
-<section class="cover" style="background-image: url('img/cover-our-beer.jpg');"></section>
+<section class="cover" style="background-image: url('img/cover/our-beer.jpg');"></section>
     
 <!-- Beer Subnav -->
 <section class="subnav black">

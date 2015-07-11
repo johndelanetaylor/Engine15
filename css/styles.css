@@ -3,7 +3,7 @@ body {
     color: #111111;
     font-size: 18px;
     font-family: "Neuton", Georgia, serif;
-    background: url(/img/wood-bg.jpg) 0 0 repeat;
+    background: url(/img/bg/wood-bg.jpg) 0 0 repeat;
     height: auto;
     width: 100%;
 }
@@ -28,7 +28,7 @@ strong {
     font-size: 14px;
 }
 button {
-    background: url(/img/sm-btn-bg.jpg) 0 0 no-repeat;
+    background: url(/img/bg/sm-btn-bg.jpg) 0 0 no-repeat;
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Source Sans Pro", "Oswald", Helvetica, sans-serif;
@@ -77,7 +77,7 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 .yellow {
-    background: url(/img/concrete-pattern-3-3.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-3-3.png) 0 0 repeat;
     color: #000000;
 }
 .black {
@@ -126,7 +126,7 @@ nav li.hovered a, nav li.active a {
     color: #000000;
 }
 nav li.hovered, nav li.active {
-    background: url(/img/sm-btn-bg.jpg), #EFC430;
+    background: url(/img/bg/sm-btn-bg.jpg), #EFC430;
 }
 nav li, nav li a {
     -webkit-transition: all 0.3s ease;
@@ -137,7 +137,7 @@ nav li, nav li a {
 
 .locations  {
     text-align: center;
-    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .subnav {
     width: 100%;
@@ -146,10 +146,13 @@ nav li, nav li a {
 }
 .subnav-links li {
     display: inline-block;
-    padding: 10px 5px 10px 5px;
+    padding: 8px 8px;
+    font-weighT: 600;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 .info {
-    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .details p {
     display: inline;
@@ -186,13 +189,13 @@ nav li, nav li a {
     padding-bottom: 25px;
 }
 .beer-menu {
-    background: url(/img/concrete-pattern-3-3.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-3-3.png) 0 0 repeat;
 }
 .event-menu {
-    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .food-menu {
-    background: url('/img/our-menu-top-bg.png') top center no-repeat, url('/img/our-menu-bottom-bg.png') bottom center no-repeat, #000000;
+    background: url('/img/bg/our-menu-top-bg.png') top center no-repeat, url('/img/bg/our-menu-bottom-bg.png') bottom center no-repeat, #000000;
     color: #FFFFFF;
     z-index: 0;
 }
@@ -321,7 +324,7 @@ nav li, nav li a {
 
 /* ~~~~~ The Shop ~~~~~ */
 .certificate {
-    background: url(/img/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .certificate h1 {
     font-family: "Neuton", Georgia, serif;

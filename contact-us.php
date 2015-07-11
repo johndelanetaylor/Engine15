@@ -16,7 +16,7 @@
 </div> -->
     
 <!-- Cover Image -->
-<section class="cover" style="background-image: url('img/cover-contact-us.jpg');"></section>
+<section class="cover" style="background-image: url('img/cover/contact-us.jpg');"></section>
     
 
 <!-- Contact Us -->

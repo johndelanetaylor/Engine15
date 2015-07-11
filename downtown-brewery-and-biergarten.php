@@ -16,7 +16,7 @@
 </div> -->
     
 <!-- Cover Image -->
-<section class="cover" style="background-image: url('img/cover-downtown-brewery-and-biergarten.jpg');"></section>
+<section class="cover" style="background-image: url('img/cover/downtown-brewery-and-biergarten.jpg');"></section>
 
 <!-- Location Subnav -->
 <section class="subnav yellow">
