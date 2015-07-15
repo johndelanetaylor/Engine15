@@ -14,6 +14,6 @@ $(document).ready(function() {
     } // Desktop size and up
 });
 
-window.unload = function() {
-    $(document.body).scrollTop(0);
-};
+$(window).on("unload", function() { 
+    $.ajax({ url: '/logout', type: 'post' });
+})

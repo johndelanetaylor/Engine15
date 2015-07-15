@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang='en'>
-<?php $pageTitle = 'Landing'; ?>
+<?php $pageTitle = 'Verify'; ?>
+<?php
+session_set_cookie_params(0);
+session_start();
+if(isset($_SESSION['adult'])){
+    header("Location: index.php");exit();
+}
+?>
     
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
@@ -8,7 +15,7 @@
 
 <body>
 
-    <section class="landing">
+    <section class="verify">
         <div class="container">
             <div class="row">
                 <div class="offset-by-two eight columns">
@@ -21,7 +28,7 @@
                 <div class="offset-by-one four columns">
                     <h1>Over 21</h1>
                     <h5>I need a beer or 3</h5>
-                    <button>I am over 21</button>
+                    <a href="login"><button>I am over 21</button></a>
                 </div>
                 <div class="two columns">
                     <h4>or</h4>
@@ -29,7 +36,7 @@
                 <div class="four columns">
                     <h1>Under 21</h1>
                     <h5>Get me out of here</h5>
-                    <button>I am under 21</button>
+                    <a href="http://duckduckgo.com"><button>I am under 21</button></a>
                 </div>
             </div>
         </div>

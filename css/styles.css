@@ -101,9 +101,9 @@ h1, h2, h3, h4 {
     padding-bottom: 0;
 }
 
-/* ~~~~~ Landing Page ~~~~~ */
+/* ~~~~~ Verification Page ~~~~~ */
 
-.landing {
+.verify {
     background: url('/img/bg/our-menu-top-bg.png') top center repeat-x, url('/img/bg/our-menu-bottom-bg.png') bottom center repeat-x, #000000;
     color: #FFFFFF;
     z-index: 0;
@@ -111,16 +111,27 @@ h1, h2, h3, h4 {
     height: 100vh;
     position: relative;
 }
-.logo-lg {
-    padding: 50px 0;
+.verify .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
-
-.landing h1 {
+.logo-lg {
+    padding-bottom: 50px;
+}
+.logo-lg img {
+    max-width: 100%;
+}
+.verify h1 {
     font-size: 56px;
     color: #EFC430;
     font-weight: 700;
 }
-.landing h4 {
+.verify h4 {
     font-family: 'Oleo Script', Zapfino, sans-serif;
     font-weight: 700;
     font-size: 48px;

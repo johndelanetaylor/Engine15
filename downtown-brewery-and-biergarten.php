@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 <?php $pageTitle = 'Downtown Brewery & Biergarten'; ?>
+<?php include("verification.php");  ?>    
     
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
