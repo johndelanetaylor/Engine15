@@ -25,7 +25,7 @@
             </div>
             <div class="six columns center">
                 <img src="/img/gift-card.png" />
-                <button><a href="http://onelink.quickgifts.com/merchant/engine-15-brewing-company/" target="_blank">Checkout</a></button>
+                <a href="http://onelink.quickgifts.com/merchant/engine-15-brewing-company/" target="_blank"><button>Checkout</button></a>
             </div>
         </div>
     </div>

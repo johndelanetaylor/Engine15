@@ -83,7 +83,7 @@
         <div class="row">
             <div class="twelve columns center">
                 <h1>Our Menu</h1>
-                <button><a href="/img/Engine-15-Menu.pdf">Download Our Menu</a></button>
+                <a href="/img/Engine-15-Menu.pdf"><button>Download Our Menu</button></a>
             </div>
         </div>
         <div class="row">
