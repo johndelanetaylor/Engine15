@@ -1,4 +1,4 @@
-<section class="social sm-pad<?php if($pageTitle === 'Jax Beach Brewpub' || $pageTitle === 'Downtown Brewery & Biergarten' || $pageTitle === 'The Shop' || $pageTitle === 'Contact Us'){ echo ' btm'; } ?>">
+<section class="social sm-pad<?php if($pageTitle === 'Jax Beach Brewpub' || $pageTitle === 'Downtown Brewery & Biergarten' || $pageTitle === 'The Shop'){ echo ' btm'; } ?>">
     <div class="container">
         <div class="row">
             <div class="twelve columns social-heading">

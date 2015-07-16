@@ -336,7 +336,18 @@ nav li, nav li a {
 }
 .beers .beer {
     display: inline-block;
+    cursor: pointer;
     margin: 8px;
+}
+.beers ul li a {
+    cursor: pointer;
+}
+.beers ul li.active a {
+    color: #EFC430;
+}
+.beer .modal {
+    display: none;
+    opacity: 0;
 }
 
 /* ~~~~~ Beer Finder ~~~~~ */

@@ -20,14 +20,15 @@
 <section class="cover" style="background-image: url('img/cover/our-beer.jpg');"></section>
     
 <!-- Beer Subnav -->
-<section class="subnav black">
+<section class="beers subnav black">
     <div class="container">
         <div class="row">
             <div class="twelve columns subnav-links">
                 <ul>
-                    <li><a href="#">Year-round</a></li> |
-                    <li><a href="#">Seasonal</a></li> |
-                    <li><a href="#">Limited</a></li>
+                    <li><a>All</a></li> |
+                    <li><a>Year-round</a></li> |
+                    <li><a>Seasonal</a></li> |
+                    <li><a>Limited</a></li>
                 </ul>
             </div>
         </div>
@@ -38,22 +39,43 @@
 <section class="beers sm-pad">
     <div class="container">
         <div class="row">
-            <div class="beer">
+            <!-- Nut Sack Brown -->
+            <div class="beer" data-type="year-round">
                 <img src="img/beer/1.jpg" />
+                <div class="modal">
+                    <img src="img/beer/1-full.jpg" />
+                    <div class="text">
+                        <span class="title">NUT SACK DOUBLE BROWN ALE</span>
+                        <span class="description">This is not your run of the mill brown ale! Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                        <ul>
+                            <li data-label="SRM">22</li>
+                            <li data-label="ABV">7.1%</li>
+                            <li data-label="IBU">26</li>
+                            <li data-label="AVAILABLE">Year-Round</li>
+                            <li data-label="AWARDS">This is where awards can go.</li>
+                        </ul>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
             </div>
-            <div class="beer">
+            <!-- Old Battle Axe IPA -->
+            <div class="beer" data-type="limited">
                 <img src="img/beer/2.jpg" />
             </div>
-            <div class="beer">
+            <!-- 904 Weissguy Wheat Ale -->
+            <div class="beer" data-type="year-round">
                 <img src="img/beer/3.jpg" />
             </div>
-            <div class="beer">
+            <!-- Route 90 Pale Ale -->
+            <div class="beer" data-type="limited">
                 <img src="img/beer/4.jpg" />
             </div>
-            <div class="beer">
+            <!-- J'ville Lager Beer -->
+            <div class="beer" data-type="seasonal">
                 <img src="img/beer/5.jpg" />
             </div>
-            <div class="beer">
+            <!-- Doolittle Saison Ale -->
+            <div class="beer" data-type="seasonal">
                 <img src="img/beer/6.jpg" />
             </div>
         </div>
