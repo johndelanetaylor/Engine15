@@ -46,12 +46,12 @@
     
 <!-- Locations -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/locations.php"); ?>
-
-<!-- Find Our Beer -->
-<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/beer-finder.php"); ?>
     
 <!-- Social -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
+
+<!-- Find Our Beer -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/beer-finder.php"); ?>
 
 <!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
