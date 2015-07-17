@@ -336,8 +336,10 @@ nav li, nav li a {
 }
 .beers .beer {
     display: inline-block;
-    cursor: pointer;
     margin: 8px;
+}
+.beers .beer .thumb {
+    cursor: pointer;
 }
 .beers ul li a {
     cursor: pointer;
@@ -345,9 +347,118 @@ nav li, nav li a {
 .beers ul li.active a {
     color: #EFC430;
 }
-.beer .modal {
-    display: none;
+
+/* ~~~~~ Beer Modal ~~~~~ */
+.modal, .backdrop {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
     opacity: 0;
+    position: fixed;
+}
+.modal .box {
+    z-index: 200;
+    width: 860px;
+    height: auto;
+    display: none;
+    max-width: 100%;
+    min-height: 340px;
+    position: relative;
+    border-radius: 5px;
+    padding: 40px 60px;
+    background: url('/img/bg/concrete-pattern-3-2.png'), #FFF;
+}
+.modal .box:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.modal .close {
+    top: 0;
+    right: 12px;
+    line-height: 1;
+    color: #4D4D4D;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    font-family: 'Georgia';
+}
+.modal {
+    z-index: 150;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.backdrop {
+    z-index: 100;
+    background: rgba(0,0,0,.5);
+}
+.modal.active, .backdrop.active {
+    opacity: 1;
+    height: auto;
+}
+.modal, .backdrop {
+    -webkit-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+}
+.modal.active .box {
+    display: block;
+}
+.box img {
+    float: left;
+    max-width: 45%;
+}
+.box .text {
+    text-align: left;
+    float: left;
+    max-width: 50%;
+    padding-left: 20px;
+}
+.text .title {
+    color: #EFC430;
+}
+.text .title {
+    color: #EFC430;
+    display: block;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+.text .description {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+.text li {
+    list-style: none;
+    color: #000000;
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.text li:before {
+    content: attr(data-label);
+    color: #EFC430;
+    display: block;
+    font-size: 14px;
+    font-family: "Oswald", Helvetica, sans-serif;
 }
 
 /* ~~~~~ Beer Finder ~~~~~ */

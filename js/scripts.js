@@ -10,8 +10,19 @@ $(document).ready(function() {
         sortBeer(type);
     });
     
-    $(".beers .beer").click(function(){
-        $(this).find('.modal').show().animate({opacity:1},500);
+    $(".beers .beer .thumb").on('click', function (e) {
+        e.preventDefault();
+        $(this).parent().find('.modal, .backdrop').toggleClass('active');
+    });
+    
+    $('.backdrop').on('click', function (e) {
+        $(this).toggleClass('active');
+        $(this).parent().toggleClass('active');
+    });
+    
+    $('.modal .close').on('click', function (e) {
+        $(this).parent().parent().toggleClass('active');
+        $(this).parent().next().toggleClass('active');
     });
     
     if(windowWidth >= 1000) {
