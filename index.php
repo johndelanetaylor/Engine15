@@ -11,8 +11,18 @@
 	
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
     
+<!-- Main Events
+<section class="events"></section> -->
+
 <!-- Slider Placeholder -->
-<section class="cover" style="background-image: url('img/slide-1.jpg');"></section>
+<section class="cover" style="position: relative; background-image: url('img/slide-1.jpg');">
+    <div class="events">
+        <img class="logo" src="/img/events-logo.png" />
+        <div class="box">
+
+        </div>
+    </div>
+</section>
     
 <!-- Locations -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/locations.php"); ?>
