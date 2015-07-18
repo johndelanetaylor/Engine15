@@ -36,7 +36,7 @@ if(isset($_SESSION['adult'])){
                 <div class="four columns">
                     <h1>Under 21</h1>
                     <h5>Get me out of here</h5>
-                    <a href="http://duckduckgo.com"><button>I am under 21</button></a>
+                    <a href="javascript:history.back()"><button>I am under 21</button></a>
                 </div>
             </div>
         </div>
