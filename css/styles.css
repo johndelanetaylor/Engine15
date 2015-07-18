@@ -146,7 +146,7 @@ h1, h2, h3, h4 {
 
 /* ~~~~~ Navigation ~~~~~ */
 
-.logo {
+nav .logo {
     display: block;
     max-width: 175px;
     max-height: 95px;
