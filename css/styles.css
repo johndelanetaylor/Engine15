@@ -529,15 +529,13 @@ section.info {
 }
 .text .title {
     color: #EFC430;
-}
-.text .title {
-    color: #EFC430;
     display: block;
     font-size: 24px;
     line-height: 1;
     margin-bottom: 8px;
     font-weight: bold;
     font-family: "Oswald", Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 .text .description {
     font-size: 18px;

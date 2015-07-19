@@ -10,6 +10,7 @@
 
 <link href='http://fonts.googleapis.com/css?family=Neuton:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
 
 <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-touch-icon-60x60.png">
