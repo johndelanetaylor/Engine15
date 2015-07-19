@@ -20,20 +20,7 @@
 <section class="cover" style="background-image: url('img/cover/jacksonville-beach-brewpub.jpg');"></section>
 
 <!-- Location Subnav -->
-<section class="subnav yellow">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns subnav-links">
-                <ul>
-                    <li><a href="#about">About</a></li> |
-                    <li><a href="#tap">Whats On Tap</a></li> |
-                    <li><a href="#events">Events</a></li> |
-                    <li><a href="#menu">Our Menu</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/subnav.php"); ?>
     
 <!-- Jacksonville Beach Brewery -->
 <section id="about" class="info lg-pad">
@@ -47,8 +34,8 @@
             <div class="seven columns">
                 <p>Engine 15 Brewing Co. operates 3 brewhouses in two locations. At our Jacksonville Beach Brewpub, we brew on our steam fired 5 bbl Brewhaus. It was built in the 1990’s in Canada by Price-Shoenstrom. The brewhouse came to us from a brewery in Ohio. Soon after receiving it, we quickly modified it to fit our application and style of brewing, and put it into production. We regularly double batch in our 10 bbl fermenters. We dedicate our efforts at the brewpub to one-offs and brewpub only offerings.</p>
                 <div class="details">
-                    <p><strong>Hours </strong>Monday 4:30PM-12:00AM | Tuesday-Sunday 11:00AM-12:00AM</p>
-                    <p><strong>Phone </strong>904-249-BEER</p>
+                    <p><strong>Hours&nbsp;</strong> Monday 4:30PM-12:00AM | Tuesday-Sunday 11:00AM-12:00AM</p>
+                    <p><strong>Phone&nbsp;</strong> 904-249-BEER</p>
                     
                 </div>
             </div>
@@ -57,15 +44,7 @@
 </section>
     
 <!-- Whats On Tap -->
-<section id="tap" class="beer-menu lg-pad center">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h1>Whats On Tap</h1>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/tap.php"); ?>
     
 <!-- Upcoming Events -->
 <section id="events" class="event-menu lg-pad center">

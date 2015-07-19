@@ -20,20 +20,7 @@
 <section class="cover" style="background-image: url('img/cover/downtown-brewery-and-biergarten.jpg');"></section>
 
 <!-- Location Subnav -->
-<section class="subnav yellow">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns subnav-links">
-                <ul>
-                    <li><a href="#about">About</a></li> |
-                    <li><a href="#tap">Whats On Tap</a></li> |
-                    <li><a href="#events">Events</a></li> |
-                    <li><a href="#menu">Our Menu</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/subnav.php"); ?>
     
 <!-- Downtown Brewery & Biergarten -->
 <section id="about" class="info lg-pad">
@@ -47,8 +34,8 @@
             <div class="seven columns">
                 <p>Our downtown Jacksonville production brewery opened in 2014. We brew on our custom built 20 barrel brewhouse into 60 barrel tanks. This location is dedicated to producing our core brands and some of our seasonal and limited offerings. We also house all of our packaging for distribution in bottles and kegs. Soon after commissioning this location we moved our original 1 barrel steam fired brewhouse downtown from the Jacksonville Beach Brewpub. We feel lucky to have been able to keep this little system that launched us, and we now use it to brew pilot batches of experimental beers, talk about fun!</p>
                 <div class="details">
-                    <p><strong>Hours </strong>Ours Of Operation</p>
-                    <p><strong>Phone </strong>555-555-5555</p>
+                    <p><strong>Hours&nbsp;</strong> Hours Of Operation</p>
+                    <p><strong>Phone&nbsp;</strong> 555-555-5555</p>
                 </div>
             </div>
         </div>
@@ -56,15 +43,7 @@
 </section>
     
 <!-- Whats On Tap -->
-<section id="tap" class="beer-menu lg-pad center">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h1>Whats On Tap</h1>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/tap.php"); ?>
     
 <!-- Upcoming Events -->
 <section id="events" class="event-menu lg-pad center">

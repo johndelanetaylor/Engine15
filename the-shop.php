@@ -13,7 +13,7 @@
     
 <!-- Cover Image -->
 <section class="cover" style="background-image: url('img/cover/the-shop.jpg');"></section>
-    
+
 <section class="lg-pad certificate">
     <div class="container">
         <div class="row">
