@@ -17,9 +17,9 @@
 <!-- Slider Placeholder -->
 <section class="cover" style="position: relative; background-image: url('img/slide-1.jpg');">
     <div class="events">
-        <img class="logo" src="/img/events-logo.png" />
-        <div class="box">
-
+        <div class="box dark">
+            <img class="logo" src="/img/events-logo.png" />
+            <div id="empty">There are no upcoming events</div>
         </div>
     </div>
 </section>

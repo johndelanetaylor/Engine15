@@ -47,15 +47,7 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/tap.php"); ?>
     
 <!-- Upcoming Events -->
-<section id="events" class="event-menu lg-pad center">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h1>Upcoming Events</h1>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/events.php"); ?>
     
 <!-- Our Menu - Jax Beach Brewpub -->
 <section id="menu" class="food-menu menu lg-pad">

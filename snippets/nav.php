@@ -1,3 +1,6 @@
+<script>
+    var pageTitle = "<?php echo $pageTitle ?>";
+</script>
 <nav>
     <div class="container">
         <div class="row">

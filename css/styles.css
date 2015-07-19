@@ -189,23 +189,103 @@ nav li, nav li a {
 
 /* ~~~~~ Events ~~~~~ */
 
-.events {
+#home .events {
     bottom: 0;
     right: 10%;
     width: 400px;
-    height: 430px;
+    height: auto;
     position: absolute;
-    padding-top: 70px;
+}
+.events #empty {
+    font-family: "Oswald", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: Center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 .events .logo {
-    top: 0;
+    top: -70px;
     left: 45px;
     position: absolute;
 }
-.events .box {
+.events .box.dark {
+    bottom: 0;
     width: 100%;
-    height: 100%;
-    background-color: #242424;
+    position: absolute;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    max-height: 360px;
+    background: url(/img/bg/concrete-pattern-3-4.png);
+}
+#events .box {
+    margin-top: 40px;
+}
+#events .event {
+    float:left;
+    padding: 0;
+    text-align: left;
+    max-width: 320px;
+    margin-bottom: 20px;
+}
+#events .event .info {
+    padding-left: 70px;
+}
+#events .title {
+    font-size: 18px;
+}
+#events .description {
+    font-size: 16px;
+}
+.event {
+    padding: 10px 20px;
+    position: relative;
+    line-height: 1;
+}
+.event p {
+    margin-bottom: 5px;
+}
+.event .date {
+    top: 50%;
+    left: 25px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+.event .date span {
+    display: block;
+}
+.event .day {
+    font-weight: bold;
+}
+.event .info {
+    padding-left: 50px;
+}
+.event .title {
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+.events .label {
+    font-size: 14px;
+    margin-right: 4px;
+}
+.event .start {
+    margin-right: 6px;
+}
+.event .month, .event .label {
+    text-transform: uppercase;
+}
+.event .title, .event .month, .event .label {
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+.event .day, .event .start, .event .end {
+    color: #EFC430;
+}
+.events .dark .month, .events .dark .title, .events .dark .description, .events .dark .label, .events .dark #empty {
+    color: #FFF;
 }
 
 /* ~~~~~ Locations ~~~~~ */
@@ -241,7 +321,7 @@ nav li, nav li a {
     font-size: 16px;
     text-transform: uppercase;
 }
-.info {
+section.info {
     background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .details p {
@@ -278,10 +358,10 @@ nav li, nav li a {
     color: #EFC430;
     padding-bottom: 25px;
 }
-.beer-menu {
+#tap {
     background: url(/img/bg/concrete-pattern-3-3.png) 0 0 repeat;
 }
-.event-menu {
+#events {
     background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
 }
 .food-menu {
@@ -437,11 +517,11 @@ nav li, nav li a {
 .modal.active .box {
     display: block;
 }
-.box img {
+.modal .box img {
     float: left;
     max-width: 45%;
 }
-.box .text {
+.modal .box .text {
     text-align: left;
     float: left;
     max-width: 50%;
