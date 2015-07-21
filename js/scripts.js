@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+
 $(document).ready(function() {
     'use strict';
     

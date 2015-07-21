@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/bxslider.css">
 
 <link href='http://fonts.googleapis.com/css?family=Neuton:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
