@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang='en'>
 <?php $pageTitle = 'Verify'; ?>
 <?php
 session_set_cookie_params(0);
@@ -8,6 +6,9 @@ if(isset($_SESSION['adult'])){
     header("Location: index.php");exit();
 }
 ?>
+
+<!DOCTYPE html>
+<html lang='en'>
     
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
