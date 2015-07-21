@@ -75,6 +75,14 @@ h1, h2, h3, h4 {
     background-size: cover;
     background-position: center;
 }
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    color: #000;
+}
+textarea, input[type="submit"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 #home .cover {
     height: 560px;
 }
@@ -605,6 +613,9 @@ section.info {
     letter-spacing: .5px;
     color: #EFC430;
     padding: 0 0 20px;
+}
+.contact p {
+    margin-bottom: 1.5rem;
 }
 .contact h5 {
     font-family: "Oswald", Helvetica, sans-serif;

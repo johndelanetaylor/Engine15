@@ -19,7 +19,6 @@
     
 <!-- Cover Image -->
 <section class="cover" style="background-image: url('img/cover/contact-us.jpg');"></section>
-    
 
 <!-- Contact Us -->
 <section class="contact lg-pad">
@@ -33,11 +32,34 @@
                     <strong>Email&nbsp;</strong> <a href="mailto:info@engine15.com">info@engine15.com</a></p>
             </div>
             <div class="six columns">
-                <form action="contact.php" method="POST">
+                <?php
+                    $name = isset($_POST['name']) ? $_POST['name'] : '';
+                    $email = isset($_POST['email']) ? $_POST['email'] : '';
+                    $message = isset($_POST['message']) ? $_POST['message'] : '';
+                    $headers = "From: " . strip_tags($email) . "\r\n";
+                    $headers .= "Reply-To: ". strip_tags($email) . "\r\n";
+                    $headers .= "MIME-Version: 1.0\r\n";
+                    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+
+                    $to = 'info@engine15.com';
+                    $subject = 'Site Contact Form';
+
+                    $body = "From: $name\n <br> E-Mail: $email\n <br> <br>";
+
+                    if (isset($_POST['submit'])) {
+                        $response = mail($to, $subject, $body, $headers);
+                        if (!response) {
+                            echo '<p>Sending Failed! Try again, please?</p>';
+                        } else {
+                            echo '<p>Message Sent Successfully!</p>';
+                        }
+                    }
+                ?>
+                <form action="contact-us" method="POST">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="text" name="email" placeholder="Your Email" required>
-                    <textarea class="u-full-width" placeholder="Your Message" required></textarea>
-                    <input class="u-full-width" type="submit" value="Submit">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <input id="submit" name="submit" type="submit" value="Submit">
                 </form>
             </div>
             <div class="one column offset"></div>
