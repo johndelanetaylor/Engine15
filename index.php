@@ -12,11 +12,14 @@
 	
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
     
-<!-- Main Events
-<section class="events"></section> -->
-
 <!-- Slider -->
-<section>
+<section class="slider">
+    <div class="events">
+        <div class="box dark">
+            <img class="logo" src="/img/events-logo.png" />
+            <div id="empty">There are no upcoming events</div>
+        </div>
+    </div>
     <div class="bxslider">
         <div class="slide"><img src="img/slide-1.jpg"></div>
         <div class="slide"><img src="img/slide-2.jpg"></div>
@@ -24,23 +27,6 @@
         <div class="slide"><img src="img/slide-4.jpg"></div>
     </div>
 </section>
-    
-<div class="events">
-    <div class="box dark">
-        <img class="logo" src="/img/events-logo.png" />
-        <div id="empty">There are no upcoming events</div>
-    </div>
-</div>
-    
-<!-- Slider Placeholder
-<section class="cover" style="position: relative; background-image: url('img/slide-1.jpg');">
-    <div class="events">
-        <div class="box dark">
-            <img class="logo" src="/img/events-logo.png" />
-            <div id="empty">There are no upcoming events</div>
-        </div>
-    </div>
-</section> -->
     
 <!-- Locations -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/locations.php"); ?>

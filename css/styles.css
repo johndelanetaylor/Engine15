@@ -197,9 +197,14 @@ nav li, nav li a {
 
 /* ~~~~~ Events ~~~~~ */
 
+section.slider {
+    position: relative;
+}
+
 #home .events {
     bottom: 0;
     right: 10%;
+    z-index: 100;
     width: 400px;
     height: auto;
     position: absolute;
@@ -722,6 +727,9 @@ footer ul li {
     }
     nav li.active a {
         color: #EFC430;
+    }
+    #home .events {
+        display: none;
     }
 }
 @media (max-width: 749px) {
