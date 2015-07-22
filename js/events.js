@@ -6,9 +6,7 @@ $(document).ready(function() {
     $.getJSON(url, function(data) {
         $('#empty').remove();
         $.each(data.items,function(i,v) {
-            console.log('Event ' + i + ': ' + data.items[i].location);
             if(data.items[i].status == "confirmed") {
-                console.log(pageTitle);
                 if(pageTitle == 'Jax Beach Brewpub') {
                     if(data.items[i].location == 'brewpub') {
                         events.push(data.items[i]); 
