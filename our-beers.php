@@ -157,6 +157,29 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
+            
+        <!-- Doolittle Saison Ale -->
+            <div class="beer" data-type="year-round">
+                <img class="thumb" src="img/beer/doolittle-saison.jpg" />
+                <div class="modal">
+                    <div class="box">
+                        <div class="close">×</div>
+                        <img src="img/beer/doolittle-saison.jpg" />
+                        <div class="text">
+                            <span class="title">Doolittle Saison Ale</span>
+                            <span class="description"><b>A not so traditional Saison.</b> We start with a malt bill of Pilsner, and wheat and that’s where tradition ends and we begin. We press on with an additional 11% Rye and American hops. We also raise the ABV to a tradition busting 8% to make this one a real good time! Our French Saison yeast gives the beer it’s characteristic farmhouse flavor and aroma and dries out the finish.</span>
+                            <ul>
+                                <li data-label="SRM">22</li>
+                                <li data-label="ABV">7.1%</li>
+                                <li data-label="IBU">26</li>
+                                <li data-label="AVAILABLE">Year-Round</li>
+                                <li data-label="AWARDS">This is where awards can go.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+            </div>
 
 <!-- End of Year-round -->
             
@@ -304,29 +327,6 @@
             
 <!-- Seasonal -->
             
-        <!-- Doolittle Saison Ale -->
-            <div class="beer" data-type="seasonal">
-                <img class="thumb" src="img/beer/doolittle-saison.jpg" />
-                <div class="modal">
-                    <div class="box">
-                        <div class="close">×</div>
-                        <img src="img/beer/doolittle-saison.jpg" />
-                        <div class="text">
-                            <span class="title">Doolittle Saison Ale</span>
-                            <span class="description"><b>A not so traditional Saison.</b> We start with a malt bill of Pilsner, and wheat and that’s where tradition ends and we begin. We press on with an additional 11% Rye and American hops. We also raise the ABV to a tradition busting 8% to make this one a real good time! Our French Saison yeast gives the beer it’s characteristic farmhouse flavor and aroma and dries out the finish.</span>
-                            <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
-                                <li data-label="AVAILABLE">Seasonal</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-            </div>
-            
         <!-- Oktoberfest -->
             <div class="beer" data-type="seasonal">
                 <img class="thumb" src="img/beer/oktoberfest.jpg" />
@@ -389,6 +389,29 @@
                                 <li data-label="IBU">26</li>
                                 <li data-label="AVAILABLE">Seasonal</li>
                                 <li data-label="AWARDS">This is where awards can go.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="backdrop"></div>
+                </div>
+            </div>
+            
+        <!-- J'ville Lemon Shandy -->
+            <div class="beer" data-type="seasonal">
+                <img class="thumb" src="img/beer/jville-lemon-shandy.jpg" />
+                <div class="modal">
+                    <div class="box">
+                        <div class="close">×</div>
+                        <img src="img/beer/jville-lemon-shandy.jpg" />
+                        <div class="text">
+                            <span class="title">J'ville Lemon Shandy</span>
+                            <span class="description"><b></b></span>
+                            <ul>
+                                <li data-label="SRM"></li>
+                                <li data-label="ABV"></li>
+                                <li data-label="IBU"></li>
+                                <li data-label="AVAILABLE">Seasonal</li>
+                                <li data-label="AWARDS"></li>
                             </ul>
                         </div>
                     </div>
