@@ -9,7 +9,7 @@ if(isset($_SESSION['adult'])){
 
 <!DOCTYPE html>
 <html lang='en'>
-    
+
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
@@ -42,6 +42,6 @@ if(isset($_SESSION['adult'])){
             </div>
         </div>
     </section>
-    
+
 </body>
 </html>

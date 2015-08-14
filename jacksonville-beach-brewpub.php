@@ -3,15 +3,15 @@
 
 <!DOCTYPE html>
 <html lang='en'>
-    
+
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
 
 <body>
-	
+
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
-    
+
 <!-- Slider Placeholder
 <div style="text-align: center; width: 100%; margin: 20px 0 40px;">
     <img src="img/slider.jpg" style="margin:auto; max-width: 100%;" />
@@ -22,7 +22,7 @@
 
 <!-- Location Subnav -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/subnav.php"); ?>
-    
+
 <!-- Jacksonville Beach Brewery -->
 <section id="about" class="info lg-pad">
     <div class="container">
@@ -33,23 +33,24 @@
                 <button><a href="https://www.google.com/maps/place/Engine+15+Brewing+Co./@30.2875967,-81.4086461,17z/data=!3m1!4b1!4m2!3m1!1s0x88e4499f19651fdf:0xc3fe1b20bd801a52" target="_blank">MAP IT</a></button>
             </div>
             <div class="seven columns">
-                <p>Engine 15 Brewing Co. operates 3 brewhouses in two locations. At our Jacksonville Beach Brewpub, we brew on our steam fired 5 bbl Brewhaus. It was built in the 1990’s in Canada by Price-Shoenstrom. The brewhouse came to us from a brewery in Ohio. Soon after receiving it, we quickly modified it to fit our application and style of brewing, and put it into production. We regularly double batch in our 10 bbl fermenters. We dedicate our efforts at the brewpub to one-offs and brewpub only offerings.</p>
+                <p>Our original location sits in the heart of Jacksonville Beach. We craft a selection of ever rotating original beers on our 5 barrel brewhouse on site as well as offer our core beers brewed at our production brewery downtown. Our brewpub offers our gusts the chance to experience the many beers Engine 15 has to offer while enjoying a bite to eat from our pub menu. We boast 50 tap lines with many of them pouring Engine 15 creations along with a constantly changing selection of guest beers from around the world. Check out the calendar of events and menus for this location and come join the fun!</p>
+                <!--<p>Engine 15 Brewing Co. operates 3 brewhouses in two locations. At our Jacksonville Beach Brewpub, we brew on our steam fired 5 bbl Brewhaus. It was built in the 1990’s in Canada by Price-Shoenstrom. The brewhouse came to us from a brewery in Ohio. Soon after receiving it, we quickly modified it to fit our application and style of brewing, and put it into production. We regularly double batch in our 10 bbl fermenters. We dedicate our efforts at the brewpub to one-offs and brewpub only offerings.</p>-->
                 <div class="details">
                     <p><strong>Hours&nbsp;</strong> Monday 4:30PM-12:00AM | Tuesday-Sunday 11:00AM-12:00AM</p>
                     <p><strong>Phone&nbsp;</strong> 904-249-BEER</p>
-                    
+
                 </div>
             </div>
         </div>
     </div>
 </section>
-    
+
 <!-- Whats On Tap -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/tap.php"); ?>
-    
+
 <!-- Upcoming Events -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/events.php"); ?>
-    
+
 <!-- Our Menu - Jax Beach Brewpub -->
 <section id="menu" class="food-menu menu lg-pad">
     <div class="container">
@@ -186,11 +187,11 @@
         </div>
     </div>
 </section>
-    
-<!-- Social -->    
+
+<!-- Social -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
 
-<!-- Footer -->    
+<!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
 
 </body>

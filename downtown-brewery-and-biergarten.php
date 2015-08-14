@@ -1,28 +1,28 @@
 <?php $pageTitle = 'Downtown Brewery & Biergarten'; ?>
-<?php include("verification.php");  ?> 
+<?php include("verification.php");  ?>
 
 <!DOCTYPE html>
-<html lang='en'>   
-    
+<html lang='en'>
+
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
 
 <body>
-	
+
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
-    
+
 <!-- Slider Placeholder
 <div style="text-align: center; width: 100%; margin: 20px 0 40px;">
     <img src="img/slider.jpg" style="margin:auto; max-width: 100%;" />
 </div> -->
-    
+
 <!-- Cover Image -->
 <section class="cover" style="background-image: url('img/cover/downtown-brewery-and-biergarten.jpg');"></section>
 
 <!-- Location Subnav -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/subnav.php"); ?>
-    
+
 <!-- Downtown Brewery & Biergarten -->
 <section id="about" class="info lg-pad">
     <div class="container">
@@ -33,7 +33,7 @@
                 <button>MAP IT</button>
             </div>
             <div class="seven columns">
-                <p>Our downtown Jacksonville production brewery opened in 2014. We brew on our custom built 20 barrel brewhouse into 60 barrel tanks. This location is dedicated to producing our core brands and some of our seasonal and limited offerings. We also house all of our packaging for distribution in bottles and kegs. Soon after commissioning this location we moved our original 1 barrel steam fired brewhouse downtown from the Jacksonville Beach Brewpub. We feel lucky to have been able to keep this little system that launched us, and we now use it to brew pilot batches of experimental beers, talk about fun!</p>
+                <p>Our downtown Jacksonville production brewery opened in 2014. We brew on our custom built 20 barrel brewhouse into 60 barrel tanks. This location is dedicated to producing our core brands and some of our seasonal and limited offerings. We also house all of our packaging for distribution in bottles and kegs. Soon after commissioning this location we moved our original 1 barrel steam fired brewhouse downtown from the Jacksonville Beach Brewpub. We feel lucky to have been able to keep this little system that launched us, and we now use it to brew pilot batches of experimental beers, talk about fun! A tap room and biergarten are in the works at this location and will be opening soon!</p>
                 <div class="details">
                     <p><strong>Hours&nbsp;</strong> Hours Of Operation</p>
                     <p><strong>Phone&nbsp;</strong> 555-555-5555</p>
@@ -42,13 +42,13 @@
         </div>
     </div>
 </section>
-    
+
 <!-- Whats On Tap -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/tap.php"); ?>
-    
+
 <!-- Upcoming Events -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/events.php"); ?>
-    
+
 <!-- Our Menu - Downtown Brewery & Biergarten -->
 <section id="menu" class="food-menu menu lg-pad">
     <div class="container">
@@ -185,11 +185,11 @@
         </div>
     </div>
 </section>
-    
-<!-- Social -->    
+
+<!-- Social -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
 
-<!-- Footer -->    
+<!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
 
 </body>
