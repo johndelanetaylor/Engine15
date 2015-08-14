@@ -3,15 +3,21 @@
 
 <!DOCTYPE html>
 <html lang='en'>
-    
+
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
 
 <body id="home">
-	
+
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
-    
+
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
+
 <!-- Slider -->
 <section class="slider">
     <div class="events">
@@ -27,7 +33,7 @@
         <div class="slide"><img src="img/slide-4.jpg"></div>
     </div>
 </section>
-    
+
 <!-- Locations -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/locations.php"); ?>
 
@@ -37,9 +43,9 @@
 <!-- Find Our Beer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/beer-finder.php"); ?>
 
-<!-- Footer --> 
+<!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
-    
+
 <!-- jQuery library (served from Google) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- bxSlider Javascript file -->
