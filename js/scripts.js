@@ -3,6 +3,10 @@ $(document).ready(function() {
 
     windowSize();
 
+    if(homepage) {
+        $('.bxslider').bxSlider();
+    }
+
     $(".beers .subnav-links li").click(function(){
         var type = $(this).text().toLowerCase();
         $(".beers .subnav-links li").removeClass("active");

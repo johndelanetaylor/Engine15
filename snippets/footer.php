@@ -31,5 +31,7 @@
 </footer>
 
 <script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
 <script src="js/scripts.js"></script>
 <?php if($pageTitle === 'Home' || $pageTitle = 'Jax Beach Brewpub' || $pageTitle = 'Downtown Brewery & Biergarten'){ echo '<script src="js/events.js"></script>'; } ?>
+<?php if($pageTitle === 'Home') { echo '<script>var homepage = true;</script>'; } ?>

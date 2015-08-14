@@ -12,12 +12,6 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
 
-<script>
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
-</script>
-
 <!-- Slider -->
 <section class="slider">
     <div class="events">
@@ -45,11 +39,6 @@ $(document).ready(function(){
 
 <!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
-
-<!-- jQuery library (served from Google) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- bxSlider Javascript file -->
-<script src="/js/jquery.bxslider.min.js"></script>
 
 </body>
 </html>

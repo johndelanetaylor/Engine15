@@ -33,3 +33,5 @@
 <meta name="msapplication-TileImage" content="/img/icon/mstile-144x144.png">
 <meta name="msapplication-config" content="/img/icon/browserconfig.xml">
 <meta name="theme-color" content="#FFFFFF">
+
+<script>var homepage = false;</script>
