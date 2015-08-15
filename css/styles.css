@@ -99,7 +99,7 @@ textarea, input[type="submit"] {
     text-align: center;
 }
 .yellow {
-    background: url(/img/bg/concrete-pattern-3-3.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-2.png) 0 0 repeat;
     color: #000000;
 }
 .black {
@@ -229,7 +229,7 @@ section.slider {
     padding-bottom: 20px;
     padding-top: 80px;
     max-height: 360px;
-    background: url(/img/bg/concrete-pattern-3-4.png);
+    background: url(/img/bg/concrete-pattern-3.png);
 }
 #events .box {
     margin-top: 40px;
@@ -306,7 +306,7 @@ section.slider {
 .locations  {
     text-align: center;
     position: relative;
-    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
 }
 .locations:after {
     content: "";
@@ -335,7 +335,7 @@ section.slider {
     text-transform: uppercase;
 }
 section.info {
-    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
 }
 .details p {
     display: inline;
@@ -372,10 +372,10 @@ section.info {
     padding-bottom: 25px;
 }
 #tap {
-    background: url(/img/bg/concrete-pattern-3-3.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-2.png) 0 0 repeat;
 }
 #events {
-    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
 }
 .food-menu {
     background: url('/img/bg/our-menu-top-bg.png') top center repeat-x, url('/img/bg/our-menu-bottom-bg.png') bottom center repeat-x, #000000;
@@ -482,7 +482,7 @@ section.info {
     position: relative;
     border-radius: 5px;
     padding: 40px 60px;
-    background: url('/img/bg/concrete-pattern-3-2.png'), #FFF;
+    background: url('/img/bg/concrete-pattern-1.png'), #FFF;
 }
 .modal .box:after {
     content: '';
@@ -629,7 +629,7 @@ section.info {
     font-size: 22px;
     letter-spacing: .25px;
     color: #FFFFFF;
-    padding: 0;  
+    padding: 0;
 }
 .contact input[type="submit"] {
     width: 100%;
@@ -641,7 +641,7 @@ section.info {
 
 .certificate  {
     position: relative;
-    background: url(/img/bg/concrete-pattern-3-2.png) 0 0 repeat;
+    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
 }
 .certificate:after {
     content: "";
