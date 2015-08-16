@@ -10,12 +10,11 @@
 
 <body>
 
-<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
+<!-- Side Nav -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/side-nav.php"); ?>
 
-<!-- Slider Placeholder
-<div style="text-align: center; width: 100%; margin: 20px 0 40px;">
-    <img src="img/slider.jpg" style="margin:auto; max-width: 100%;" />
-</div> -->
+<!-- Main Nav -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
 
 <!-- Cover Image -->
 <section class="cover" style="background-image: url('img/cover/downtown-brewery-and-biergarten.jpg');"></section>

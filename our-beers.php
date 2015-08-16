@@ -3,23 +3,22 @@
 
 <!DOCTYPE html>
 <html lang='en'>
-    
+
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
 
 <body>
-	
+
+<!-- Side Nav -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/side-nav.php"); ?>
+
+<!-- Main Nav -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
-    
-<!-- Slider Placeholder
-<div style="text-align: center; width: 100%; margin: 20px 0 40px;">
-    <img src="img/slider.jpg" style="margin:auto; max-width: 100%;" />
-</div> -->
 
 <!-- Cover Image -->
 <section class="cover" style="background-image: url('img/cover/our-beer.jpg');"></section>
-    
+
 <!-- Beer Subnav -->
 <section class="beers subnav black">
     <div class="container">
@@ -35,14 +34,14 @@
         </div>
     </div>
 </section>
-    
+
 <!-- Our Beers -->
 <section class="beers sm-pad">
     <div class="container">
         <div class="row">
-            
+
 <!-- Year Round -->
-            
+
         <!-- Route 90 Rye Pale Ale -->
             <div class="beer" data-type="year-round">
                 <img class="thumb" src="img/beer/route-90-rye.jpg" />
@@ -65,7 +64,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Old Battle Axe IPA -->
             <div class="beer" data-type="year-round">
                 <img class="thumb" src="img/beer/old-battle-axe.jpg" />
@@ -88,7 +87,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- 904 Weissguy Wheat Ale -->
             <div class="beer" data-type="year-round">
                 <img class="thumb" src="img/beer/904-weissguy.jpg" />
@@ -111,7 +110,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-                        
+
         <!-- Nut Sack Brown -->
             <div class="beer" data-type="year-round">
                 <img class="thumb" src="img/beer/nut-sack-double.jpg" />
@@ -134,7 +133,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- J'ville Lager Beer -->
             <div class="beer" data-type="year-round">
                 <img class="thumb" src="img/beer/jville-lager.jpg" />
@@ -157,7 +156,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Doolittle Saison Ale -->
             <div class="beer" data-type="year-round">
                 <img class="thumb" src="img/beer/doolittle-saison.jpg" />
@@ -182,9 +181,9 @@
             </div>
 
 <!-- End of Year-round -->
-            
+
 <!-- Limited -->
-            
+
         <!-- Orange Cream Ale -->
             <div class="beer" data-type="limited">
                 <img class="thumb" src="img/beer/orange-cream-ale.jpg" />
@@ -207,7 +206,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Double Drop -->
             <div class="beer" data-type="limited">
                 <img class="thumb" src="img/beer/double-drop-ipa.jpg" />
@@ -230,7 +229,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Double IPA -->
             <div class="beer" data-type="limited">
                 <img class="thumb" src="img/beer/double-ipa.jpg" />
@@ -253,7 +252,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Imperial Simcoe -->
             <div class="beer" data-type="limited">
                 <img class="thumb" src="img/beer/imperial-simcoe.jpg" />
@@ -276,7 +275,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Imperial Chupacabra -->
             <div class="beer" data-type="limited">
                 <img class="thumb" src="img/beer/imperial-chupacabra.jpg" />
@@ -299,7 +298,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Straight Thirty -->
             <div class="beer" data-type="limited">
                 <img class="thumb" src="img/beer/straight-thirty.jpg" />
@@ -324,9 +323,9 @@
             </div>
 
 <!-- End of Limited -->
-            
+
 <!-- Seasonal -->
-            
+
         <!-- Oktoberfest -->
             <div class="beer" data-type="seasonal">
                 <img class="thumb" src="img/beer/oktoberfest.jpg" />
@@ -349,7 +348,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Candy's Summer Quencher -->
             <div class="beer" data-type="seasonal">
                 <img class="thumb" src="img/beer/cundys-summer-quencher.jpg" />
@@ -372,7 +371,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Watermelon Blonde -->
             <div class="beer" data-type="seasonal">
                 <img class="thumb" src="img/beer/watermelon-blonde.jpg" />
@@ -395,7 +394,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- J'ville Lemon Shandy -->
             <div class="beer" data-type="seasonal">
                 <img class="thumb" src="img/beer/jville-lemon-shandy.jpg" />
@@ -418,7 +417,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Heavy Engine Quad -->
             <div class="beer" data-type="seasonal">
                 <img class="thumb" src="img/beer/heavy-engine-quad.jpg" />
@@ -441,7 +440,7 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
         <!-- Pumpmaster -->
             <div class="beer" data-type="seasonal">
                 <img class="thumb" src="img/beer/pumpmaster.jpg" />
@@ -464,16 +463,16 @@
                     <div class="backdrop"></div>
                 </div>
             </div>
-            
+
 <!-- End of Seasonal -->
-            
-        </div>        
+
+        </div>
     </div>
 </section>
-    
+
 <!-- Find Our Beer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/beer-finder.php"); ?>
-    
+
 <!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
 

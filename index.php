@@ -10,6 +10,10 @@
 
 <body id="home">
 
+<!-- Side Nav -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/side-nav.php"); ?>
+
+<!-- Main Nav -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
 
 <!-- Slider -->

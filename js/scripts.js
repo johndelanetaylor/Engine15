@@ -7,6 +7,8 @@ $(document).ready(function() {
         $('.bxslider').bxSlider();
     }
 
+    document.getElementById("body-overlay").onclick=function(){document.getElementById("nav-toggle").checked=!1};
+
     $(".beers .subnav-links li").click(function(){
         var type = $(this).text().toLowerCase();
         $(".beers .subnav-links li").removeClass("active");
@@ -29,9 +31,7 @@ $(document).ready(function() {
         $(this).parent().next().toggleClass('active');
     });
 
-    if(windowWidth >= 1000) {
-        $('nav a').hover(function() { $(this).parent('li').toggleClass('hovered'); });
-    }
+    $('nav a').hover(function() { $(this).parent('li').toggleClass('hovered'); });
 
 });
 

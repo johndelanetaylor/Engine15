@@ -3,15 +3,19 @@
 
 <!DOCTYPE html>
 <html lang='en'>
-    
+
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
 
 <body>
-	
+
+<!-- Side Nav -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/side-nav.php"); ?>
+
+<!-- Main Nav -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
-    
+
 <!-- Cover Image -->
 <section class="cover" style="background-image: url('img/cover/the-shop.jpg');"></section>
 
@@ -34,11 +38,11 @@
 
 <!-- Find Our Beer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/beer-finder.php"); ?>
-    
+
 <!-- Social -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/social.php"); ?>
 
-<!-- Footer -->    
+<!-- Footer -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
 
 </body>

@@ -3,7 +3,6 @@ body {
     color: #111111;
     font-size: 18px;
     font-family: "Neuton", Georgia, serif;
-    background: url(/img/bg/wood-bg.jpg) top center;
     height: auto;
     width: 100%;
 }
@@ -36,7 +35,7 @@ strong {
     font-size: 14px;
 }
 button, input[type="submit"] {
-    background: url(/img/bg/sm-btn-bg.jpg);
+    background: url('/img/bg/sm-btn-bg.jpg');
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Source Sans Pro", "Oswald", Helvetica, sans-serif;
@@ -99,7 +98,7 @@ textarea, input[type="submit"] {
     text-align: center;
 }
 .yellow {
-    background: url(/img/bg/concrete-pattern-2.png) 0 0 repeat;
+    background: url('/img/bg/concrete-pattern-2.png') 0 0 repeat;
     color: #000000;
 }
 .black {
@@ -113,6 +112,108 @@ textarea, input[type="submit"] {
 }
 .btm {
     padding-bottom: 0;
+}
+
+/* ~~~~~ Side Nav ~~~~~ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+#side-nav {
+    position: fixed;
+    width: 220px;
+    z-index: -1;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#mobile-nav ul {
+    height: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 100;
+    text-transform: uppercase;
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+#mobile-nav li {
+    height: 80%;
+    padding: 0 20px;
+    list-style: none;
+}
+#mobile-nav li a {
+    display: inherit;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#mobile-nav li.hovered a, #mobile-nav li.active a {
+    color: #000000;
+}
+#mobile-nav li.hovered, #mobile-nav li.active {
+    background: url('/img/bg/sm-btn-bg.jpg'), #EFC430;
+}
+#mobile-nav li, #mobile-nav li a {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#wrapper {
+    padding: 0;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    transition: -webkit-transform .14s ease-in-out;
+    transition: transform .14s ease-in-out;
+    background: url('/img/bg/wood-bg.jpg') top center;
+}
+.mobile-toggle {
+    display: inline-block;
+    box-sizing: border-box;
+    z-index: 100;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    margin-top: 5px;
+    padding: 0;
+    vertical-align: middle;
+    line-height: 16px;
+    text-align: right;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 22px;
+    height: 22px;
+}
+.mobile-toggle .top-bar, .mobile-toggle .middle-bar, .mobile-toggle .bottom-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: -webkit-transform .1s 0s ease-in-out,top .1s .1s ease-in-out;
+    transition: transform .1s 0s ease-in-out,top .1s .1s ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.mobile-toggle .middle-bar {
+    top: 7px;
+    transition: opacity 0s .15s linear;
+}
+.mobile-toggle .bottom-bar {
+    top: 14px;
+}
+nav .container, nav .row {
+    height: 100%;
 }
 
 /* ~~~~~ Verification Page ~~~~~ */
@@ -154,43 +255,44 @@ textarea, input[type="submit"] {
 
 /* ~~~~~ Navigation ~~~~~ */
 
-nav .logo {
+#main-nav .logo {
     display: block;
     max-width: 175px;
     max-height: 95px;
     padding: 20px 0 0 0;
 }
-nav {
+#main-nav {
     width: 100%;
     height: 100px;
     font-size: 14px;
     font-weight: 400;
+    z-index: 100;
     text-transform: uppercase;
     font-family: "Oswald", Helvetica, sans-serif;
 }
-nav ul {
+#main-nav ul {
     height: 100px;
     text-align: right;
 }
-nav li {
+#main-nav li {
     height: 100%;
     display: inline-block;
 }
-nav li a {
+#main-nav li a {
     color: #FFFFFF;
     display: inherit;
     padding: 40px 12px 15px;
 }
-nav li.active a {
+#main-nav li.active a {
     color: #FFFFFF;
 }
-nav li.hovered a, nav li.active a {
+#main-nav li.hovered a, #main-nav li.active a {
     color: #000000;
 }
-nav li.hovered, nav li.active {
-    background: url(/img/bg/sm-btn-bg.jpg), #EFC430;
+#main-nav li.hovered, #main-nav li.active {
+    background: url('/img/bg/sm-btn-bg.jpg'), #EFC430;
 }
-nav li, nav li a {
+#main-nav li, #main-nav li a {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -229,7 +331,7 @@ section.slider {
     padding-bottom: 20px;
     padding-top: 80px;
     max-height: 360px;
-    background: url(/img/bg/concrete-pattern-3.png);
+    background: url('/img/bg/concrete-pattern-3.png');
 }
 #events .box {
     margin-top: 40px;
@@ -306,7 +408,7 @@ section.slider {
 .locations  {
     text-align: center;
     position: relative;
-    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
+    background: url('/img/bg/concrete-pattern-1.png') 0 0 repeat;
 }
 .locations:after {
     content: "";
@@ -314,7 +416,7 @@ section.slider {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/img/bg/location-tanks-bg.jpg) center center;
+    background: url('/img/bg/location-tanks-bg.jpg') center center;
     width: 100%;
     height: 100%;
     opacity: 0.1;
@@ -335,7 +437,7 @@ section.slider {
     text-transform: uppercase;
 }
 section.info {
-    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
+    background: url('/img/bg/concrete-pattern-1.png') 0 0 repeat;
 }
 .details p {
     display: inline;
@@ -372,10 +474,10 @@ section.info {
     padding-bottom: 25px;
 }
 #tap {
-    background: url(/img/bg/concrete-pattern-2.png) 0 0 repeat;
+    background: url('/img/bg/concrete-pattern-2.png') 0 0 repeat;
 }
 #events {
-    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
+    background: url('/img/bg/concrete-pattern-1.png') 0 0 repeat;
 }
 .food-menu {
     background: url('/img/bg/our-menu-top-bg.png') top center repeat-x, url('/img/bg/our-menu-bottom-bg.png') bottom center repeat-x, #000000;
@@ -641,7 +743,7 @@ section.info {
 
 .certificate  {
     position: relative;
-    background: url(/img/bg/concrete-pattern-1.png) 0 0 repeat;
+    background: url('/img/bg/concrete-pattern-1.png') 0 0 repeat;
 }
 .certificate:after {
     content: "";
@@ -649,7 +751,7 @@ section.info {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/img/bg/location-tanks-bg.jpg) center center;
+    background: url('/img/bg/location-tanks-bg.jpg') center center;
     width: 100%;
     height: 100%;
     opacity: 0.1;
@@ -721,6 +823,13 @@ footer ul li {
 }
 
 /* ~~~~~ Media Queries ~~~~~ */
+
+@media (min-width: 1000px) {
+    #main-nav .mobile-toggle {
+        display: none;
+    }
+}
+
 @media (max-width: 999px) {
     nav li.active {
         background: none;
@@ -731,12 +840,53 @@ footer ul li {
     #home .events {
         display: none;
     }
+    #nav-toggle:checked~#body-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        cursor: e-resize;
+        -webkit-transform: translatex(-220px) translatez(0);
+        -ms-transform: translatex(-220px) translatez(0);
+        transform: translatex(-220px) translatez(0);
+    }
+    #nav-toggle:checked~#wrapper {
+        position: fixed;
+        height: 100%;
+        -webkit-transform: translate3d(-220px,0,0);
+        -ms-transform: translate3d(-220px,0,0);
+        transform: translate3d(-220px,0,0);
+    }
+    #nav-toggle:checked~#wrapper .mobile-toggle {
+        margin-top: 10px;
+    }
+    #nav-toggle:checked~#wrapper .mobile-toggle .top-bar {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    #nav-toggle:checked~#wrapper .mobile-toggle .middle-bar {
+        opacity: 0;
+    }
+    #nav-toggle:checked~#wrapper .mobile-toggle .bottom-bar {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    #main-nav .ten.columns {
+        display: none;
+    }
 }
 @media (max-width: 749px) {
 
 }
 @media (max-width: 549px) {
-
+    #main-nav .two.columns {
+        max-width: 160px;
+    }
 }
 @media (max-width: 399px) {
 
