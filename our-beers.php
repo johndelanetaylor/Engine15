@@ -51,13 +51,13 @@
                         <img src="img/beer/route-90-rye.jpg" />
                         <div class="text">
                             <span class="title">Route 90 Rye Pale Ale</span>
-                            <span class="description"><b>This amber colored rye beer</b> combines the citrus and floral character of a classic american ipa with the spicy earthy notes of a rye ale. hoppy but not too bitter and just enough spice to give you a little.</span>
+                            <span class="description"><b>This amber colored rye beer</b> combines the citrus and floral character of a classic american ipa with the spicy earthy notes of a rye ale. Hoppy but not too bitter and just enough spice to give you a little.</span>
                             <ul>
                                 <li data-label="SRM">12</li>
                                 <li data-label="ABV">6%</li>
                                 <li data-label="IBU">60</li>
                                 <li data-label="AVAILABLE">Year-Round</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
+                                <!--<li data-label="AWARDS">This is where awards can go.</li>-->
                             </ul>
                         </div>
                     </div>
@@ -80,7 +80,6 @@
                                 <li data-label="ABV">6.4%</li>
                                 <li data-label="IBU">62</li>
                                 <li data-label="AVAILABLE">Year-Round</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -100,10 +99,9 @@
                             <span class="description"><b>An American wheat</b> inspired by the traditional bavarian style hefeweissen, notes of clove, orange along with a cloudy yeast character make this a summer favorite.</span>
                             <ul>
                                 <li data-label="SRM">3.5</li>
-                                <li data-label="ABV">4.4%</li>
+                                <li data-label="ABV">4.5%</li>
                                 <li data-label="IBU">19</li>
                                 <li data-label="AVAILABLE">Year-Round</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -126,7 +124,6 @@
                                 <li data-label="ABV">7.1%</li>
                                 <li data-label="IBU">26</li>
                                 <li data-label="AVAILABLE">Year-Round</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -143,13 +140,12 @@
                         <img src="img/beer/jville-lager.jpg" />
                         <div class="text">
                             <span class="title">J'ville Lager Beer</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>This classic American Lager</b> is unpretentious, and of course, brewed the hard way, whatever that means. Grab a J’Ville and enjoy tasty lager that is ‘Good as Gold’.</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">30</li>
+                                <li data-label="ABV">5%</li>
+                                <li data-label="IBU">13</li>
                                 <li data-label="AVAILABLE">Year-Round</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -172,7 +168,6 @@
                                 <li data-label="ABV">7.1%</li>
                                 <li data-label="IBU">26</li>
                                 <li data-label="AVAILABLE">Year-Round</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -193,13 +188,12 @@
                         <img src="img/beer/orange-cream-ale.jpg" />
                         <div class="text">
                             <span class="title">Orange Cream Ale</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>Florida in a glass!</b> We create this beer using only oranges from the great state of Florida.  A delicious and refreshing citrus treat.</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">3.5</li>
+                                <li data-label="ABV">5.3%</li>
+                                <li data-label="IBU">15</li>
                                 <li data-label="AVAILABLE">Limited</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -216,36 +210,12 @@
                         <img src="img/beer/double-drop-ipa.jpg" />
                         <div class="text">
                             <span class="title">Double Drop IPA</span>
-                            <span class="description"><b>A West Coast style hop bomb.</b> We mean hop bomb in the best way possible. We start with plenty of late hop additions of Chinook, Centennial and Columbus hops, but that is just the beginning. Where the real hop magic happens is in the secondary fermentation where we apply a secret and patent pending dry hopping procedure. We’ll leave it at tons of hops added slowly to give a face melting hop aroma and flavor! Rejoice hop lovers, Double Drop is here!</span>
+                            <span class="description"><b>Straight up a West Coast style IPA.</b> Mounds of “C” hops and secret dry hopping techniques yield a mouthful of hoppy goodness.</span>
                             <ul>
                                 <li data-label="SRM">8</li>
                                 <li data-label="ABV">6.1%</li>
-                                <li data-label="IBU">Trade Secret</li>
+                                <li data-label="IBU">CLASSIFIED</li>
                                 <li data-label="AVAILABLE">Limited</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-            </div>
-
-        <!-- Double IPA -->
-            <div class="beer" data-type="limited">
-                <img class="thumb" src="img/beer/double-ipa.jpg" />
-                <div class="modal">
-                    <div class="box">
-                        <div class="close">×</div>
-                        <img src="img/beer/double-ipa.jpg" />
-                        <div class="text">
-                            <span class="title">Double IPA</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
-                            <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
-                                <li data-label="AVAILABLE">Limited</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -262,13 +232,12 @@
                         <img src="img/beer/imperial-simcoe.jpg" />
                         <div class="text">
                             <span class="title">Imperial Simcoe</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>A classic Double IPA</b> chock full of hops and with a sturdy backbone to carry it off. Try our seasonal barrel aged version in the fall!</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">11</li>
+                                <li data-label="ABV">8%</li>
+                                <li data-label="IBU">88</li>
                                 <li data-label="AVAILABLE">Limited</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -285,13 +254,12 @@
                         <img src="img/beer/imperial-chupacabra.jpg" />
                         <div class="text">
                             <span class="title">Imperial Chupacabra</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>Our Russian Imperial Stout</b> brewed just once a year for our anniversary. We whiskey barrel age this baby to perfection and unleash it on the world!</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">33</li>
+                                <li data-label="ABV">9%</li>
+                                <li data-label="IBU">57</li>
                                 <li data-label="AVAILABLE">Limited</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -307,14 +275,13 @@
                         <div class="close">×</div>
                         <img src="img/beer/straight-thirty.jpg" />
                         <div class="text">
-                            <span class="title">Straight Thirty</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="title">Straight 30W</span>
+                            <span class="description"><b>Style correct Foreign Extra Stout.</b> Nice and thick with plenty of roasted and dark malts, not overly heavy or sweet.</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">39</li>
+                                <li data-label="ABV">7.4%</li>
+                                <li data-label="IBU">53</li>
                                 <li data-label="AVAILABLE">Limited</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -335,13 +302,12 @@
                         <img src="img/beer/oktoberfest.jpg" />
                         <div class="text">
                             <span class="title">Oktoberfest</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>This seasonal lager</b> is in the Marzen style of Oktoberfest beers. A bit more malt forward than the Helles that is served at the actual Oktoberfest in Munich but very quaffable and delicious!</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">11</li>
+                                <li data-label="ABV">5.2%</li>
+                                <li data-label="IBU">23</li>
                                 <li data-label="AVAILABLE">Seasonal</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -358,13 +324,12 @@
                         <img src="img/beer/cundys-summer-quencher.jpg" />
                         <div class="text">
                             <span class="title">Cundy's Summer Quencher</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>Named for the famous Cundy’s Harbour in Maine.</b> It is the quintessential summer beer, built for relaxing and taking in those beautiful water views wherever you are. Just like the place it’s named for.</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">6</li>
+                                <li data-label="ABV">5%</li>
+                                <li data-label="IBU">15</li>
                                 <li data-label="AVAILABLE">Seasonal</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -381,13 +346,12 @@
                         <img src="img/beer/watermelon-blonde.jpg" />
                         <div class="text">
                             <span class="title">Watermelon Blonde</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>We tirelessly juice fresh watermelons</b> by the truckload and then use the delicious sweet nectar to create this fruity elixir.</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">3.5</li>
+                                <li data-label="ABV">5.1%</li>
+                                <li data-label="IBU">17</li>
                                 <li data-label="AVAILABLE">Seasonal</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -404,13 +368,12 @@
                         <img src="img/beer/jville-lemon-shandy.jpg" />
                         <div class="text">
                             <span class="title">J'ville Lemon Shandy</span>
-                            <span class="description"><b></b></span>
+                            <span class="description"><b>Start with our famous J’Ville Lager</b> and add lemon juice and a couple other secret ingredients and voila! Lemonade flavor! Except it’s beer. Whoa!</span>
                             <ul>
-                                <li data-label="SRM"></li>
-                                <li data-label="ABV"></li>
-                                <li data-label="IBU"></li>
+                                <li data-label="SRM">3</li>
+                                <li data-label="ABV">4.5%</li>
+                                <li data-label="IBU">13</li>
                                 <li data-label="AVAILABLE">Seasonal</li>
-                                <li data-label="AWARDS"></li>
                             </ul>
                         </div>
                     </div>
@@ -427,13 +390,12 @@
                         <img src="img/beer/heavy-engine-quad.jpg" />
                         <div class="text">
                             <span class="title">Heavy Engine Quad</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>Belgian style Quad ale.</b> Nice and warming, slightly sweet with a delightfully happy ending. Perfect for the holiday season.</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">28</li>
+                                <li data-label="ABV">10.2%</li>
+                                <li data-label="IBU">29</li>
                                 <li data-label="AVAILABLE">Seasonal</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
@@ -450,13 +412,12 @@
                         <img src="img/beer/pumpmaster.jpg" />
                         <div class="text">
                             <span class="title">Pumpmaster</span>
-                            <span class="description"><b>This is not your run of the mill brown ale!</b> Mounds of English malts and modest hops deliver a mouthful of caramel and nutty goodness that is sure to leave you wishing there were more than just two nuts in a sack! The large malt bill and English Ale yeast also lend to the full mouthfeel as well as that satisfying flavor that lingers a while and sends you back to the glass for more Nut Sack! At 7% ABV please enjoy responsibly, the Nut Sack is not a toy.</span>
+                            <span class="description"><b>We brew this fall Pumpkin beer</b> and release it when it is actually fall, not in July, because that's just silly. Enjoy Pumpkin with a little spice to make things interesting!</span>
                             <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
+                                <li data-label="SRM">16</li>
+                                <li data-label="ABV">8.5%</li>
+                                <li data-label="IBU">24</li>
                                 <li data-label="AVAILABLE">Seasonal</li>
-                                <li data-label="AWARDS">This is where awards can go.</li>
                             </ul>
                         </div>
                     </div>
