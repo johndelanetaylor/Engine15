@@ -136,19 +136,17 @@ textarea, input[type="submit"] {
 }
 #mobile-nav ul {
     height: 100px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     z-index: 100;
     text-transform: uppercase;
     font-family: "Oswald", Helvetica, sans-serif;
 }
 #mobile-nav li {
-    height: 80%;
-    padding: 0 20px;
+    padding: 20px;
     list-style: none;
 }
 #mobile-nav li a {
-    display: inherit;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -327,7 +325,7 @@ section.slider {
 .events .box.dark {
     bottom: 0;
     width: 100%;
-    position: absolute;
+    overflow: hidden;
     padding-bottom: 20px;
     padding-top: 80px;
     max-height: 360px;
@@ -337,11 +335,12 @@ section.slider {
     margin-top: 40px;
 }
 #events .event {
-    float:left;
+    display: inline-block;
     padding: 0;
     text-align: left;
-    max-width: 320px;
-    margin-bottom: 20px;
+    width: 320px;
+    height: 100px;
+    margin-bottom: 10px;
 }
 #events .event .info {
     padding-left: 70px;
@@ -432,7 +431,7 @@ section.slider {
 .subnav-links li {
     display: inline-block;
     padding: 8px 8px;
-    font-weighT: 600;
+    font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -592,7 +591,6 @@ section.info {
     clear: both;
 }
 .modal .close {
-    top: 0;
     right: 12px;
     line-height: 1;
     color: #4D4D4D;
@@ -786,8 +784,8 @@ footer p, ul, li, a {
     margin: 0;
 }
 footer ul li {
-    display: inline;
-    padding: 0 10px;
+    display: inline-block;
+    padding: 5px 10px;
     list-style: none;
 }
 .footer-nav {
@@ -821,6 +819,12 @@ footer ul li {
 .footer-end p {
     padding-top: 15px;
 }
+.footer-end a {
+    display: inline-block;
+}
+#main-nav ul li:nth-of-type(3), #side-nav ul li:nth-of-type(4), .footer-nav ul li:nth-of-type(4) {
+    display: none;
+}
 
 /* ~~~~~ Media Queries ~~~~~ */
 
@@ -831,6 +835,9 @@ footer ul li {
 }
 
 @media (max-width: 999px) {
+    img {
+        max-width: 100%;
+    }
     nav li.active {
         background: none;
     }
@@ -879,15 +886,217 @@ footer ul li {
     #main-nav .ten.columns {
         display: none;
     }
+    .footer-end .container {
+        width: 90%;
+    }
+    .container {
+        width: 85%;
+    }
+    .lg-pad {
+        padding: 80px 0;
+    }
+    #tap tr td:nth-of-type(2) {
+        display: none;
+    }
+    .footer-end {
+        font-size: 14px;
+    }
+    .jax-beach h1 {
+        font-size: 44px;
+    }
+    .jax-beach h2 {
+        font-size: 28px;
+    }
+    .biergarten h1 {
+        font-size: 24px;
+    }
+    .biergarten h2 {
+        font-size: 46px;
+    }
+    .certificate h1 {
+        font-size: 26px;
+    }
+    .certificate h2 {
+        font-size: 44px;
+    }
+    .contact h3 {
+        font-size: 34px;
+    }
+    .contact h5 {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
 }
 @media (max-width: 749px) {
-
+    .jax-beach h1, .biergarten h2 {
+        font-size: 40px;
+    }
+    .jax-beach h2 {
+        font-size: 26px;
+    }
+    .biergarten h1 {
+        font-size: 20px;
+    }
+    .footer-nav {
+        padding: 40px 0;
+    }
+    .footer-end p {
+        padding: 15px 0 10px;
+        display: inline-block;
+    }
+    .footer-end .container {
+        opacity: 1;
+    }
 }
 @media (max-width: 549px) {
     #main-nav .two.columns {
         max-width: 160px;
     }
+    .locations .jax-beach {
+        margin-bottom: 80px;
+    }
+    .beer-finder h2 {
+        font-size: 40px;
+    }
+    .beer-finder h4 {
+        font-size: 36px;
+    }
+    .beer-finder h1 {
+        font-size: 38px;
+    }
+    .jax-beach h1 {
+        font-size: 44px;
+    }
+    .jax-beach h2 {
+        font-size: 28px;
+    }
+    .biergarten h1 {
+        font-size: 24px;
+    }
+    .biergarten h2 {
+        font-size: 46px;
+    }
+    .footer-end {
+        font-size: 16px;
+    }
+    .footer-end .four:nth-of-type(2) {
+        margin: 15px 0;
+    }
+    .footer-end p {
+        padding: 10px 0;
+    }
+    .footer-nav {
+        font-size: 16px;
+    }
+    footer ul li {
+        padding: 10px;
+    }
+    .subnav .container {
+        width: 90%;
+    }
+    .subnav-links li {
+        padding: 10px 6px;
+        font-size: 14px;
+    }
+    .modal .box {
+        height: 90%;
+        overflow: scroll;
+        padding: 0 40px;
+        border-radius: 0;
+    }
+    .modal .close {
+        position: fixed;
+    }
+    .modal .box img {
+        float: none;
+        margin: 40px auto;
+        max-width: 60%;
+    }
+    .modal .box .text {
+        float: none;
+        max-width: none;
+        padding-left: 0;
+    }
+    #about .five.columns {
+        margin-bottom: 40px;;
+    }
+    .details p {
+        display: inline-block;
+        margin-bottom: 2rem;
+    }
+    .cover {
+        height: 260px;
+    }
+    .beers .beer {
+        display: block;
+        margin: 0 0 20px;
+    }
 }
 @media (max-width: 399px) {
-
+    .container {
+        padding: 0;
+    }
+    .jax-beach h1, .biergarten h2 {
+        font-size: 40px;
+    }
+    .jax-beach h2 {
+        font-size: 26px;
+    }
+    .biergarten h1 {
+        font-size: 20px;
+    }
+    .beer-finder h2 {
+        font-size: 30px;
+    }
+    .beer-finder h4, .beer-finder h1 {
+        font-size: 30px;
+    }
+    .footer-nav {
+        font-size: 14px;
+    }
+    .lg-pad {
+        padding: 60px 0;
+    }
+    .cover {
+        height: 160px;
+    }
+    .subnav-links li {
+        padding: 12px 2px;
+        font-size: 12px;
+    }
+    .modal .box {
+        padding: 0 25px;
+    }
+    .text .title {
+        font-size: 22px;
+    }
+    .text .description {
+        font-size: 18px;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+    .text li {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .event {
+        height: auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .event .date {
+        left: 0;
+    }
+    .event .info {
+        padding-left:
+    }
+    .certificate h1 {
+        font-size: 22px;
+    }
+    .certificate h2 {
+        font-size: 40px;
+    }
 }
