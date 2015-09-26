@@ -4,9 +4,6 @@ $(document).ready(function() {
         events = [],
         url = 'https://www.googleapis.com/calendar/v3/calendars/engine15brew%40gmail.com/events?singleEvents=true&orderBy=startTime&maxResults=12&timeMin=' + now + '&fields=items(originalStartTime%2Cdescription%2ChtmlLink%2Cstatus%2Csummary%2Clocation%2Cvisibility%2Cstart%2Cend%2Cid)&key=AIzaSyATwaXpxGxDNIfTSAiWh4gZTDBXIUBJZ70';
     $.getJSON(url, function(data) {
-        if(data.items.length > 0) {
-            $('#empty').remove();
-        }
         $.each(data.items,function(i,v) {
             if(data.items[i].status == "confirmed") {
                 if(pageTitle == 'Jax Beach Brewpub') {
@@ -22,18 +19,16 @@ $(document).ready(function() {
                 }
             }
         });
-        makeFeed(events);
-    });
-    setTimeout(function(){
-        if($('.box').length == 1) {
-            $('.box .event').css('float','none').css('display','inline-block');
+        if(data.items.length > 0) {
+            $('#empty').remove();
+            makeFeed(events);
         }
-    }, 500);
+    });
 });
 
 function makeFeed(event) {
     var len = event.length;
-    for(i = 0; i < len; i++) {
+    for(i = 0; i < 4; i++) {
         var first = Object.keys(event[i].start)[0],
             id = event[i].id || '',
             title = event[i].summary || '',
