@@ -4,16 +4,18 @@ $(document).ready(function() {
         events = [],
         url = 'https://www.googleapis.com/calendar/v3/calendars/engine15brew%40gmail.com/events?singleEvents=true&orderBy=startTime&maxResults=12&timeMin=' + now + '&fields=items(originalStartTime%2Cdescription%2ChtmlLink%2Cstatus%2Csummary%2Clocation%2Cvisibility%2Cstart%2Cend%2Cid)&key=AIzaSyATwaXpxGxDNIfTSAiWh4gZTDBXIUBJZ70';
     $.getJSON(url, function(data) {
-        $('#empty').remove();
+        if(data.items.length > 0) {
+            $('#empty').remove();
+        }
         $.each(data.items,function(i,v) {
             if(data.items[i].status == "confirmed") {
                 if(pageTitle == 'Jax Beach Brewpub') {
                     if(data.items[i].location == 'brewpub') {
-                        events.push(data.items[i]); 
+                        events.push(data.items[i]);
                     }
                 } else if(pageTitle == 'Downtown Brewery & Biergarten') {
                     if(data.items[i].location == 'biergarten') {
-                        events.push(data.items[i]); 
+                        events.push(data.items[i]);
                     }
                 } else {
                     events.push(data.items[i]);
@@ -25,7 +27,7 @@ $(document).ready(function() {
     setTimeout(function(){
         if($('.box').length == 1) {
             $('.box .event').css('float','none').css('display','inline-block');
-        } 
+        }
     }, 500);
 });
 
