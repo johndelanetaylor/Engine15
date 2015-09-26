@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="four columns">
-                    <p><a href="mailto:info@engine15.com">info@engine15.com</a> | 904-249-BEER</p>
+                    <p><a href="mailto:info@engine15.com">info@engine15.com</a> | <span style="display: inline-block;">904-249-BEER</span></p>
                 </div>
                 <div class="four columns"><a href="index.php"><img src="img/logo.svg" /></a></div>
                 <div class="four columns">

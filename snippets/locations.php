@@ -1,4 +1,3 @@
-<!-- Locations -->
 <section class="locations lg-pad">
     <div class="container">
         <div class="row">

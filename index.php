@@ -19,8 +19,8 @@
 <!-- Slider -->
 <section class="slider">
     <div class="events">
+		<img class="logo" src="/img/events-logo.png" />
         <div class="box dark">
-            <img class="logo" src="/img/events-logo.png" />
             <div id="empty">There are no upcoming events</div>
         </div>
     </div>
