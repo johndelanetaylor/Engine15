@@ -4,7 +4,12 @@ $(document).ready(function() {
     windowSize();
 
     if(homepage) {
-        $('.bxslider').bxSlider();
+        $('.bxslider').bxSlider({
+            mode: 'fade',
+            speed: 500,
+            pause: 5000,
+            auto: true
+        });
     }
 
     document.getElementById("body-overlay").onclick=function(){document.getElementById("nav-toggle").checked=!1};
