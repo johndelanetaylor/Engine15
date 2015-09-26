@@ -16,9 +16,7 @@
                 <h1>Downtown Brewery</h1>
                 <h2>&amp; Biergarten</h2>
                 <p>Hang on tight!<br />
-                    Our biergarten is coming soon!<br />
-                    555-555-5555<br />
-                    Hours of Operation</p>
+                    Our biergarten is coming soon!</p>
                 <button>COMING SOON</button>
             </div>
         </div>
