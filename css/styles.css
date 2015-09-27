@@ -825,6 +825,9 @@ footer ul li {
 #main-nav ul li:nth-of-type(3), #side-nav ul li:nth-of-type(4), .footer-nav ul li:nth-of-type(4) {
     display: none;
 }
+.verify a {
+    display: inline-block;
+}
 
 /* ~~~~~ Media Queries ~~~~~ */
 
@@ -886,7 +889,7 @@ footer ul li {
     #main-nav .ten.columns {
         display: none;
     }
-    .footer-end .container {
+    .footer-end .container, .verify .container {
         width: 90%;
     }
     .container {
@@ -925,6 +928,12 @@ footer ul li {
     .contact h5 {
         font-size: 20px;
         margin-bottom: 1rem;
+    }
+    .verify h1 {
+        font-size: 50px;
+    }
+    .verify h5 {
+        font-size: 22px;
     }
 }
 @media (max-width: 749px) {
@@ -999,9 +1008,10 @@ footer ul li {
         font-size: 14px;
     }
     .modal .box {
-        height: 90%;
+        height: auto;
+        max-height: 90%;
         overflow: scroll;
-        padding: 0 40px;
+        padding: 0 40px 40px;
         border-radius: 0;
     }
     .modal .close {
@@ -1030,6 +1040,20 @@ footer ul li {
     .beers .beer {
         display: block;
         margin: 0 0 20px;
+    }
+    .verify h1 {
+        font-size: 44px;
+    }
+    .verify h4 {
+        font-size: 30px;
+        margin: 10px 0;
+        display: block;
+    }
+    .verify h5 {
+        margin-bottom: 1rem;
+    }
+    .verify .logo-lg {
+        padding: 0 40px 40px;
     }
 }
 @media (max-width: 399px) {
@@ -1098,5 +1122,20 @@ footer ul li {
     }
     .certificate h2 {
         font-size: 40px;
+    }
+    .verify h1 {
+        font-size: 32px;
+    }
+    .verify h4 {
+        font-size: 24px;
+    }
+    .verify h5 {
+        font-size: 20px;
+    }
+    .verify .logo-lg {
+        padding: 0 40px 20px;
+    }
+    .verify button {
+        width: 200px;
     }
 }

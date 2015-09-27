@@ -3,7 +3,7 @@
 session_set_cookie_params(0);
 session_start();
 if(isset($_SESSION['adult'])){
-    header("Location: index.php");exit();
+    header("Location: /");exit();
 }
 ?>
 
@@ -19,7 +19,7 @@ if(isset($_SESSION['adult'])){
     <section class="verify">
         <div class="container">
             <div class="row">
-                <div class="offset-by-two eight columns">
+                <div class="twelve columns">
                     <div class="logo-lg">
                         <img src="img/engine-15-logo-large.png" />
                     </div>
