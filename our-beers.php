@@ -153,31 +153,31 @@
                 </div>
             </div>
 
-        <!-- Doolittle Saison Ale -->
-            <div class="beer" data-type="year-round">
-                <img class="thumb" src="img/beer/doolittle-saison.jpg" />
-                <div class="modal">
-                    <div class="box">
-                        <div class="close">×</div>
-                        <img src="img/beer/doolittle-saison.jpg" />
-                        <div class="text">
-                            <span class="title">Doolittle Saison Ale</span>
-                            <span class="description"><b>A not so traditional Saison.</b> We start with a malt bill of Pilsner, and wheat and that’s where tradition ends and we begin. We press on with an additional 11% Rye and American hops. We also raise the ABV to a tradition busting 8% to make this one a real good time! Our French Saison yeast gives the beer it’s characteristic farmhouse flavor and aroma and dries out the finish.</span>
-                            <ul>
-                                <li data-label="SRM">22</li>
-                                <li data-label="ABV">7.1%</li>
-                                <li data-label="IBU">26</li>
-                                <li data-label="AVAILABLE">Year-Round</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="backdrop"></div>
-                </div>
-            </div>
-
 <!-- End of Year-round -->
 
 <!-- Limited -->
+
+	<!-- Doolittle Saison Ale -->
+		<div class="beer" data-type="limited">
+			<img class="thumb" src="img/beer/doolittle-saison.jpg" />
+			<div class="modal">
+				<div class="box">
+					<div class="close">×</div>
+					<img src="img/beer/doolittle-saison.jpg" />
+					<div class="text">
+						<span class="title">Doolittle Saison Ale</span>
+						<span class="description"><b>A not so traditional Saison.</b> We start with a malt bill of Pilsner, and wheat and that’s where tradition ends and we begin. We press on with an additional 11% Rye and American hops. We also raise the ABV to a tradition busting 8% to make this one a real good time! Our French Saison yeast gives the beer it’s characteristic farmhouse flavor and aroma and dries out the finish.</span>
+						<ul>
+							<li data-label="SRM">22</li>
+							<li data-label="ABV">7.1%</li>
+							<li data-label="IBU">26</li>
+							<li data-label="AVAILABLE">Limited</li>
+						</ul>
+					</div>
+				</div>
+				<div class="backdrop"></div>
+			</div>
+		</div>
 
         <!-- Orange Cream Ale -->
             <div class="beer" data-type="limited">
