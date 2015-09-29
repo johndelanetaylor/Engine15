@@ -19,7 +19,7 @@ $(document).ready(function() {
                 }
             }
         });
-        if(data.items.length > 0) {
+        if(events.length > 0) {
             $('#empty').remove();
             makeFeed(events);
         }
@@ -38,12 +38,14 @@ function makeFeed(event) {
             start = thisTime(event[i].start[first]),
             end = thisTime(event[i].end.dateTime),
             element = '<div class="event" id="' + id + '"> <div class="date"> <span class="month">' + month + '</span> <span class="day">' + day + '</span> </div><div class="info"> <span class="title">' + title + '</span> <p class="description">' + description + '</p></div></div>',
-            startend = '<span class="label">Starts</span><span class="start">' + start + '</span> <span class="label">Ends</span><span class="end">' + end + '</span>';
-        if(first == "dateTime") {
+            starts = '<span class="label">Starts</span><span class="start">' + start + '</span>',
+            ends = '<span class="label">Ends</span><span class="end">' + end + '</span>';
+        if(end === '00:00am') {
             $('.events .box').append(element);
-            $('.events .box .event:last .info').append(startend);
+            $('.events .box .event:last .info').append(starts);
         } else {
             $('.events .box').append(element);
+            $('.events .box .event:last .info').append(starts + ends);
         }
     }
 }
