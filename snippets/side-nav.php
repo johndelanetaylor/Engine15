@@ -1,5 +1,7 @@
+<div id="loader"></div>
 <input id="nav-toggle" type="checkbox" name="nav-toggle" class="nav-toggle hidden">
 <a id="body-overlay" href="#"></a>
+<div id="bg"></div>
 <aside id="side-nav">
     <nav id="mobile-nav">
         <ul>
