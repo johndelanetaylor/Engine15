@@ -43,7 +43,7 @@
                     $to = 'info@engine15.com';
                     $subject = 'Site Contact Form';
 
-                    $body = "From: $name\n <br> E-Mail: $email\n <br> <br>";
+                    $body = "From: $name\n <br> E-Mail: $email\n <br> <br> $message\n";
 
                     if (isset($_POST['submit'])) {
                         $response = mail($to, $subject, $body, $headers);
