@@ -790,6 +790,33 @@ section.info {
 .certificate img {
     padding: 20px 0;
 }
+.merch h1 {
+    font-family: "Oswald", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: .5px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.merch h2 {
+    font-family: "Neuton", Georgia, serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+.merch h3 {
+    font-family: "Oswald", Helvetica, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: .5px;
+    font-weight: 200;
+    font-size: 16px;
+    padding: 10px 0 50px 0;
+    text-align: center;
+}
 
 /* ~~~~~ Footer ~~~~~ */
 
