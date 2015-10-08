@@ -34,5 +34,15 @@
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/jquery.bxslider.js"></script>
 <script src="js/scripts.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68600968-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <?php if($pageTitle === 'Home' || $pageTitle = 'Jax Beach Brewpub' || $pageTitle = 'Downtown Brewery & Biergarten'){ echo '<script src="js/events.js"></script>'; } ?>
 <?php if($pageTitle === 'Home') { echo '<script>var homepage = true;</script>'; } ?>
