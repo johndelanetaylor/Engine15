@@ -17,7 +17,7 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
 
 <!-- Cover Image -->
-<section class="cover" style="background-image: url('img/cover/jacksonville-beach-brewpub.jpg');"></section>
+<section class="cover" style="background-image: url('/img/cover/jacksonville-beach-brewpub.jpg');"></section>
 
 <!-- Location Subnav -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/subnav.php"); ?>

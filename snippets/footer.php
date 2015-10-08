@@ -4,12 +4,12 @@
             <div class="row">
                 <div class="twelve columns">
                     <ul>
-                        <li <?php if($pageTitle === 'Home'){ echo 'class="active"'; } ?> ><a href="index">Home</a></li>
-                        <li <?php if($pageTitle === 'Our Beers'){ echo 'class="active"'; } ?> ><a href="our-beers">Our Beers</a></li>
-                        <li <?php if($pageTitle === 'Jax Beach Brewpub'){ echo 'class="active"'; } ?> ><a href="jacksonville-beach-brewpub">Jacksonville Beach Brewpub</a></li>
-                        <li <?php if($pageTitle === 'Downtown Brewery & Biergarten'){ echo 'class="active"'; } ?> ><a href="downtown-brewery-and-biergarten">Downtown Brewery &amp; Biergarten</a></li>
-                        <li <?php if($pageTitle === 'The Shop'){ echo 'class="active"'; } ?> ><a href="the-shop">The Shop</a></li>
-                        <li <?php if($pageTitle === 'Contact Us'){ echo 'class="active"'; } ?> ><a href="contact-us">Contact Us</a></li>
+                        <li <?php if($pageTitle === 'Home'){ echo 'class="active"'; } ?> ><a href="/">Home</a></li>
+                        <li <?php if($pageTitle === 'Our Beers'){ echo 'class="active"'; } ?> ><a href="our-beers.php">Our Beers</a></li>
+                        <li <?php if($pageTitle === 'Jax Beach Brewpub'){ echo 'class="active"'; } ?> ><a href="jacksonville-beach-brewpub.php">Jacksonville Beach Brewpub</a></li>
+                        <li <?php if($pageTitle === 'Downtown Brewery & Biergarten'){ echo 'class="active"'; } ?> ><a href="downtown-brewery-and-biergarten.php">Downtown Brewery &amp; Biergarten</a></li>
+                        <li <?php if($pageTitle === 'The Shop'){ echo 'class="active"'; } ?> ><a href="the-shop.php">The Shop</a></li>
+                        <li <?php if($pageTitle === 'Contact Us'){ echo 'class="active"'; } ?> ><a href="contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                 <div class="four columns">
                     <p><a href="mailto:info@engine15.com">info@engine15.com</a> | <span style="display: inline-block;">904-249-BEER</span></p>
                 </div>
-                <div class="four columns"><a href="index.php"><img src="img/logo.svg" /></a></div>
+                <div class="four columns"><a href="/"><img src="/img/logo.svg" /></a></div>
                 <div class="four columns">
                     <p>© 2015 Engine15 Brewing Company</p>
                 </div>

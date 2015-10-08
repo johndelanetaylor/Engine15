@@ -17,7 +17,7 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
 
 <!-- Cover Image -->
-<section class="cover" style="background-image: url('img/cover/downtown-brewery-and-biergarten.jpg');"></section>
+<section class="cover" style="background-image: url('/img/cover/downtown-brewery-and-biergarten.jpg');"></section>
 
 <!-- Location Subnav -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/subnav.php"); ?>

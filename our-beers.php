@@ -17,7 +17,7 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
 
 <!-- Cover Image -->
-<section class="cover" style="background-image: url('img/cover/our-beer.jpg');"></section>
+<section class="cover" style="background-image: url('/img/cover/our-beer.jpg');"></section>
 
 <!-- Beer Subnav -->
 <section class="beers subnav black">

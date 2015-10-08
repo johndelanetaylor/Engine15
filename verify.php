@@ -29,7 +29,7 @@ if(isset($_SESSION['adult'])){
                 <div class="offset-by-one four columns">
                     <h1>Over 21</h1>
                     <h5>I need a beer or 3</h5>
-                    <a href="login"><button>I am over 21</button></a>
+                    <a href="login.php"><button>I am over 21</button></a>
                 </div>
                 <div class="two columns">
                     <h4>or</h4>

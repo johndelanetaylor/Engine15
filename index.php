@@ -25,11 +25,11 @@
         </div>
     </div>
     <div class="bxslider">
-        <div class="slide"><img src="img/slide-1.jpg"></div>
-        <div class="slide"><img src="img/slide-2.jpg"></div>
-        <div class="slide"><img src="img/slide-3.jpg"></div>
-        <div class="slide"><img src="img/slide-4.jpg"></div>
-		<div class="slide"><img src="img/slide-5.jpg"></div>
+        <div class="slide"><img src="/img/slide-1.jpg"></div>
+        <div class="slide"><img src="/img/slide-2.jpg"></div>
+        <div class="slide"><img src="/img/slide-3.jpg"></div>
+        <div class="slide"><img src="/img/slide-4.jpg"></div>
+		<div class="slide"><img src="/img/slide-5.jpg"></div>
     </div>
 </section>
 
