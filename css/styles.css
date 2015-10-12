@@ -350,12 +350,12 @@ section.slider {
     margin-top: 40px;
 }
 #events .event {
-    display: inline-block;
+    display: inline-flex;
     padding: 0;
     text-align: left;
     width: 320px;
-    height: 100px;
-    margin-bottom: 10px;
+    /*height: 100px;*/
+    margin-bottom: 20px;
 }
 #events .event .info {
     padding-left: 70px;
